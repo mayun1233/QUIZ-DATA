@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT one of the five core functions of the NIST Cybersecurity Framework?",
+      "options": {
+        "a": "Identify",
+        "b": "Protect",
+        "c": "Detect",
+        "d": "Encrypt"
+      },
+      "answer": "d",
+      "explanation": "The five core functions of the NIST Cybersecurity Framework are Identify, Protect, Detect, Respond, and Recover. \"Encrypt\" is a security measure or technique used within the Protect function, but it is not one of the five main framework functions itself."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a type of authentication factor?",
+      "options": {
+        "a": "Knowledge (e.g., password)",
+        "b": "Possession (e.g., card/token)",
+        "c": "Inherence (e.g., fingerprint/iris)",
+        "d": "Location"
+      },
+      "answer": "d",
+      "explanation": "Authentication can be verified using three main factors: Knowledge, Possession, and Inherence. Location (geolocation) is sometimes used as an additional contextual factor but is not considered one of the three primary authentication types."
+    },
+    {
+      "id": 3,
+      "question": "Which type of camera works best in low-light conditions?",
+      "options": {
+        "a": "Color Camera",
+        "b": "Black and White Camera",
+        "c": "Pan-Tilt-Zoom (PTZ) Camera",
+        "d": "IP Camera"
+      },
+      "answer": "b",
+      "explanation": "Black and white cameras are generally more sensitive to light and perform better in low-light environments compared to color cameras. PTZ cameras offer remote control and wide viewing angles, but they are not specifically designed for low-light conditions as their primary feature."
+    },
+    {
+      "id": 4,
+      "question": "What is the main purpose of Security Zones in an Intrusion Detection System?",
+      "options": {
+        "a": "To store video files",
+        "b": "To enhance security management",
+        "c": "To store passwords",
+        "d": "To increase network speed"
+      },
+      "answer": "b",
+      "explanation": "The purpose of Security Zones in intrusion detection systems is to improve security management. By dividing the network into zones, threats can be monitored, detected, and responded to more effectively and efficiently."
+    },
+    {
+      "id": 5,
+      "question": "What is the primary objective of Physical Security?",
+      "options": {
+        "a": "To update software",
+        "b": "To protect tangible assets",
+        "c": "To encrypt data",
+        "d": "To detect viruses"
+      },
+      "answer": "b",
+      "explanation": "Physical security primarily focuses on protecting tangible (physical) assets such as buildings, hardware, equipment, and personnel. Its goals include preventing theft, damage, unauthorized access, and maintaining system integrity."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is included in the \"Recover\" function of the NIST Cybersecurity Framework?",
+      "options": {
+        "a": "Detecting threats",
+        "b": "Implementing recovery solutions",
+        "c": "Encrypting data",
+        "d": "Training employees"
+      },
+      "answer": "b",
+      "explanation": "The \"Recover\" function of the NIST Framework involves implementing recovery solutions to restore normal operations and services after a cybersecurity incident has occurred."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following security features does the BIOS/CMOS provide?",
+      "options": {
+        "a": "Increasing internet speed",
+        "b": "Setting User and Supervisory passwords",
+        "c": "Updating the graphics card",
+        "d": "Expanding hard drive space"
+      },
+      "answer": "b",
+      "explanation": "BIOS provides security options before the operating system loads. By setting User and Supervisory (Administrator) passwords, it restricts who can access the system's hardware settings and boot process."
+    },
+    {
+      "id": 8,
+      "question": "What is the main reason for hiding a Private Network from the outside world?",
+      "options": {
+        "a": "To increase internet speed",
+        "b": "To prevent unauthorized access",
+        "c": "To save electricity",
+        "d": "To make software updates faster"
+      },
+      "answer": "b",
+      "explanation": "The primary purpose of hiding a private network is to prevent unauthorized external access. This is a key component of Perimeter Security, which acts as the first line of defense against outside threats."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is essential for protecting a computer from threats over the internet?",
+      "options": {
+        "a": "Using a secure connection",
+        "b": "Using a Firewall",
+        "c": "Using Anti-malware software",
+        "d": "All of the above"
+      },
+      "answer": "d",
+      "explanation": "To protect against online threats, a secure connection, a firewall, and anti-malware software are all essential layers of defense. No single measure is sufficient on its own."
+    },
+    {
+      "id": 10,
+      "question": "What does the OSI (Open Systems Interconnection) model relate to?",
+      "options": {
+        "a": "Software development",
+        "b": "Networking layers (communication layers)",
+        "c": "Database management",
+        "d": "Graphic design"
+      },
+      "answer": "b",
+      "explanation": "The OSI model is the most widely discussed layered network architecture model. It defines seven layers, each specifying what devices, protocols, and functions operate at that level to enable network communication."
+    }
+  ]
+}
