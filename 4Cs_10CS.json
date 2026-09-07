@@ -1,0 +1,125 @@
+{
+    "quiz_title": "Introduction to AI and Cybersecurity Essentials Quiz (10 Questions)",
+    "questions": [
+        {
+            "id": 1,
+            "book": "Artificial Intelligence: A Modern Approach (4th Edition)",
+            "question": "Who are the authors of the book 'Artificial Intelligence: A Modern Approach'?",
+            "options": [
+                "A) Stuart Russell and Peter Norvig",
+                "B) Andrew Ng and Yann LeCun",
+                "C) Alan Turing and John McCarthy",
+                "D) Geoffrey Hinton and Yoshua Bengio"
+            ],
+            "answer": "A) Stuart Russell and Peter Norvig"
+        },
+        {
+            "id": 2,
+            "book": "Artificial Intelligence: A Modern Approach (4th Edition)",
+            "question": "Which edition of 'Artificial Intelligence: A Modern Approach' is shown in the image?",
+            "options": [
+                "A) First Edition",
+                "B) Second Edition",
+                "C) Third Edition",
+                "D) Fourth Edition"
+            ],
+            "answer": "D) Fourth Edition"
+        },
+        {
+            "id": 3,
+            "book": "Artificial Intelligence: A Modern Approach (4th Edition)",
+            "question": "Which famous computer pioneer whose face appears on the cover of the AI book proposed the famous test for machine intelligence?",
+            "options": [
+                "A) Isaac Newton",
+                "B) Alan Turing",
+                "C) Albert Einstein",
+                "D) Charles Babbage"
+            ],
+            "answer": "B) Alan Turing"
+        },
+        {
+            "id": 4,
+            "book": "Artificial Intelligence: A Modern Approach (4th Edition)",
+            "question": "What broad field of study do the topics in 'Artificial Intelligence: A Modern Approach' primarily cover?",
+            "options": [
+                "A) Artificial Intelligence",
+                "B) Culinary Arts",
+                "C) Ancient History",
+                "D) Marine Biology"
+            ],
+            "answer": "A) Artificial Intelligence"
+        },
+        {
+            "id": 5,
+            "book": "Artificial Intelligence: A Modern Approach (4th Edition)",
+            "question": "Which game and chess pieces are prominently featured in the cover design of the AI book?",
+            "options": [
+                "A) Chess",
+                "B) Monopoly",
+                "C) Scrabble",
+                "D) Poker"
+            ],
+            "answer": "A) Chess"
+        },
+        {
+            "id": 6,
+            "book": "Cybersecurity Essentials",
+            "question": "What is the primary focus of the book 'Cybersecurity Essentials'?",
+            "options": [
+                "A) Database management",
+                "B) Basic and core principles of cybersecurity",
+                "C) Mobile game development",
+                "D) Graphic design"
+            ],
+            "answer": "B) Basic and core principles of cybersecurity"
+        },
+        {
+            "id": 7,
+            "book": "Cybersecurity Essentials",
+            "question": "Which of the following is one of the co-authors of 'Cybersecurity Essentials'?",
+            "options": [
+                "A) Charles J. Brooks",
+                "B) Stuart Russell",
+                "C) Peter Norvig",
+                "D) Alan Turing"
+            ],
+            "answer": "A) Charles J. Brooks"
+        },
+        {
+            "id": 8,
+            "book": "Cybersecurity Essentials",
+            "question": "What kind of imagery (visual elements) dominates the cover design of 'Cybersecurity Essentials'?",
+            "options": [
+                "A) World map and binary code / network lines",
+                "B) Tropical rainforests and animals",
+                "C) Kitchen appliances and recipes",
+                "D) Classical paintings and art history"
+            ],
+            "answer": "A) World map and binary code / network lines"
+        },
+        {
+            "id": 9,
+            "book": "Cybersecurity Essentials",
+            "question": "Which publisher brand name appears at the bottom right corner of the 'Cybersecurity Essentials' cover?",
+            "options": [
+                "A) SYBEX",
+                "B) Penguin Books",
+                "C) National Geographic",
+                "D) Oxford University Press"
+            ],
+            "answer": "A) SYBEX"
+        },
+        {
+            "id": 10,
+            "book": "General / Both Books",
+            "question": "Both textbooks ('Artificial Intelligence' and 'Cybersecurity Essentials') fall under which major academic or professional discipline?",
+            "options": [
+                "A) Computer Science and Information Technology",
+                "B) Fine Arts and Music",
+                "C) Agriculture and Forestry",
+                "D) Sports Science"
+            ],
+            "answer": "A) Computer Science and Information Technology"
+        }
+    ]
+}
