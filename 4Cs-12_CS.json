@@ -1,0 +1,117 @@
+{
+  "title": "Cyber Security Final Examination — Multiple Choice Questions",
+  "instructions": "Choose the best answer (A, B, C, or D) for each question.",
+  "total_score": 10,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What does the acronym 'CIA' stand for in the context of information security?",
+      "options": {
+        "A": "Central Intelligence Agency",
+        "B": "Confidentiality, Integrity, Availability",
+        "C": "Cyber Intrusion Analysis",
+        "D": "Controlled Information Access"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Which type of attack involves overwhelming a server with traffic to make it unavailable to legitimate users?",
+      "options": {
+        "A": "Phishing",
+        "B": "SQL Injection",
+        "C": "Denial-of-Service (DoS)",
+        "D": "Man-in-the-Middle"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 3,
+      "question": "What is the primary purpose of a firewall?",
+      "options": {
+        "A": "To encrypt data stored on a hard drive",
+        "B": "To monitor and control incoming and outgoing network traffic based on security rules",
+        "C": "To back up files automatically",
+        "D": "To speed up internet connections"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "Which of the following best describes 'phishing'?",
+      "options": {
+        "A": "A technique to physically break into a data center",
+        "B": "A method of encrypting sensitive files",
+        "C": "A deceptive attempt to trick users into revealing sensitive information",
+        "D": "A type of firewall configuration"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "question": "What is the main difference between symmetric and asymmetric encryption?",
+      "options": {
+        "A": "Symmetric encryption uses the same key for encryption and decryption; asymmetric uses a key pair",
+        "B": "Symmetric encryption is only used for passwords",
+        "C": "Asymmetric encryption does not require a key",
+        "D": "There is no difference; the terms are interchangeable"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 6,
+      "question": "What type of malware disguises itself as legitimate software to trick users into installing it?",
+      "options": {
+        "A": "Worm",
+        "B": "Trojan Horse",
+        "C": "Rootkit",
+        "D": "Adware"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 7,
+      "question": "Which security practice involves testing a system by simulating an attack to find vulnerabilities?",
+      "options": {
+        "A": "Penetration Testing",
+        "B": "Load Balancing",
+        "C": "Data Mirroring",
+        "D": "Patch Management"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 8,
+      "question": "What is 'two-factor authentication (2FA)' designed to do?",
+      "options": {
+        "A": "Speed up the login process",
+        "B": "Add an extra layer of security by requiring two different forms of verification",
+        "C": "Allow multiple users to share one password",
+        "D": "Automatically reset passwords every day"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 9,
+      "question": "What is a 'zero-day vulnerability'?",
+      "options": {
+        "A": "A vulnerability that has existed for exactly zero days since patching",
+        "B": "A flaw that is publicly known and already patched",
+        "C": "A previously unknown software flaw that attackers exploit before a fix is available",
+        "D": "A type of antivirus signature update"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 10,
+      "question": "Which protocol is used to securely transmit data over the web, indicated by a padlock icon in the browser?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "HTTPS",
+        "D": "SMTP"
+      },
+      "answer": "C"
+    }
+  ]
+}

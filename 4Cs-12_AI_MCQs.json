@@ -1,0 +1,117 @@
+{
+  "title": "Artificial Intelligence Final Examination — Multiple Choice Questions",
+  "instructions": "Choose the best answer (A, B, C, or D) for each question.",
+  "total_score": 10,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is the primary goal of supervised learning?",
+      "options": {
+        "A": "To find hidden patterns in unlabeled data",
+        "B": "To learn a mapping from inputs to outputs using labeled training data",
+        "C": "To maximize a reward signal through trial and error",
+        "D": "To reduce the dimensionality of a dataset"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 2,
+      "question": "Which algorithm is commonly used for classification tasks and works by finding a hyperplane that best separates classes?",
+      "options": {
+        "A": "K-Means Clustering",
+        "B": "Support Vector Machine",
+        "C": "Principal Component Analysis",
+        "D": "Apriori Algorithm"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 3,
+      "question": "In a neural network, what is the purpose of an activation function?",
+      "options": {
+        "A": "To initialize the weights of the network",
+        "B": "To normalize the input data before training",
+        "C": "To introduce non-linearity so the network can learn complex patterns",
+        "D": "To reduce the number of layers needed"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 4,
+      "question": "What does the term 'overfitting' refer to in machine learning?",
+      "options": {
+        "A": "A model that performs well on training data but poorly on unseen data",
+        "B": "A model that is too simple to capture patterns in the data",
+        "C": "A model that trains too quickly",
+        "D": "A model that uses too little training data"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 5,
+      "question": "Which search algorithm is guaranteed to find the shortest path in a weighted graph with non-negative edge weights?",
+      "options": {
+        "A": "Depth-First Search",
+        "B": "Breadth-First Search",
+        "C": "Dijkstra's Algorithm",
+        "D": "Hill Climbing"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 6,
+      "question": "What is the main idea behind reinforcement learning?",
+      "options": {
+        "A": "An agent learns by receiving rewards or penalties for its actions in an environment",
+        "B": "A model is trained using only labeled examples",
+        "C": "Data is grouped into clusters based on similarity",
+        "D": "Features are reduced to a smaller set of variables"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 7,
+      "question": "In the context of AI, what does 'NLP' stand for?",
+      "options": {
+        "A": "Neural Learning Process",
+        "B": "Natural Language Processing",
+        "C": "Network Layer Protocol",
+        "D": "Numeric Linear Programming"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 8,
+      "question": "Which of the following is a common technique used to prevent overfitting in neural networks?",
+      "options": {
+        "A": "Increasing the learning rate indefinitely",
+        "B": "Removing all hidden layers",
+        "C": "Dropout regularization",
+        "D": "Using a smaller training dataset"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 9,
+      "question": "What is the primary function of a convolutional layer in a Convolutional Neural Network (CNN)?",
+      "options": {
+        "A": "To extract spatial features such as edges and textures from images",
+        "B": "To convert text into numerical vectors",
+        "C": "To store the final classification output",
+        "D": "To shuffle the training dataset"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 10,
+      "question": "The Turing Test was proposed to evaluate what property of a machine?",
+      "options": {
+        "A": "Its computational speed",
+        "B": "Its ability to exhibit intelligent behavior indistinguishable from a human",
+        "C": "Its memory storage capacity",
+        "D": "Its energy efficiency"
+      },
+      "answer": "B"
+    }
+  ]
+}
