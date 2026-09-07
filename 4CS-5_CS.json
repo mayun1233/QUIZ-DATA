@@ -1,0 +1,122 @@
+
+{
+  "quiz_title": "Cybersecurity Essentials - Questions from Chapters 1 to 25",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT one of the three main components of the CIA Triad?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Authentication",
+        "D": "Availability"
+      },
+      "correct_answer": ["C"],
+      "explanation": "The three main components of the CIA Triad are Confidentiality, Integrity, and Availability. Authentication is not part of the triad."
+    },
+    {
+      "id": 2,
+      "question": "In cybersecurity, what does the term 'Vulnerability' best describe?",
+      "options": {
+        "A": "The probability of a successful attack",
+        "B": "A weakness that can be exploited",
+        "C": "The value of an asset",
+        "D": "A security incident"
+      },
+      "correct_answer": ["B"],
+      "explanation": "A Vulnerability is a weakness in a system that can be exploited by threats."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following best describes the primary motivation of 'Hacktivists'?",
+      "options": {
+        "A": "They want to demonstrate their hacking skills.",
+        "B": "They are learning hacking skills out of curiosity.",
+        "C": "They are part of a protest group for a political cause."
+      },
+      "correct_answer": ["C"],
+      "explanation": "Hacktivists are typically motivated by political or social causes."
+    },
+    {
+      "id": 4,
+      "question": "When signing a document with a Digital Signature, whose key is used and which key is it?",
+      "options": {
+        "A": "Bob's Public Key",
+        "B": "Alice's Public Key",
+        "C": "Alice's Private Key",
+        "D": "Bob's Private Key"
+      },
+      "correct_answer": ["C"],
+      "explanation": "The signer (Alice) uses her Private Key to create the digital signature, and the receiver (Bob) verifies it using Alice's Public Key."
+    },
+    {
+      "id": 5,
+      "question": "A company is considering using a biometric system for data center access control. What type of error is a 'False Acceptance' (accepting an unauthorized user as legitimate)?",
+      "options": {
+        "A": "Type I Error",
+        "B": "Type II Error",
+        "C": "CER"
+      },
+      "correct_answer": ["B"],
+      "explanation": "False Acceptance is known as a Type II error, where the system incorrectly accepts an unauthorized user."
+    },
+    {
+      "id": 6,
+      "question": "Why is WPA2 considered more secure than WPA?",
+      "options": {
+        "A": "Because it properly uses AES algorithms",
+        "B": "Because it reduces the keyspace",
+        "C": "Because it supports TKIP"
+      },
+      "correct_answer": ["A"],
+      "explanation": "WPA2 is more secure because it mandates the use of AES (Advanced Encryption Standard) encryption, whereas WPA primarily uses TKIP."
+    },
+    {
+      "id": 7,
+      "question": "Which three of the following are types of Malware? (Select three)",
+      "options": {
+        "A": "Virus",
+        "B": "Trojan Horse",
+        "C": "Keylogger",
+        "D": "Email",
+        "E": "Attachments"
+      },
+      "correct_answer": ["A", "B", "C"],
+      "explanation": "Virus, Trojan Horse, and Keylogger are all types of malware. Email and Attachments are vectors (methods of delivery), not malware themselves."
+    },
+    {
+      "id": 8,
+      "question": "What is the state of stored data on a network (e.g., on a NAS or SAN) called?",
+      "options": {
+        "A": "Data-in-transit",
+        "B": "Data-in-process",
+        "C": "Data-at-rest"
+      },
+      "correct_answer": ["C"],
+      "explanation": "Data stored on devices like NAS and SAN is referred to as Data-at-rest."
+},
+    {
+      "id": 9,
+      "question": "Which technology should be used to protect data from being viewed by unauthorized parties (eavesdropping)?",
+      "options": {
+        "A": "Hashing",
+        "B": "Encryption",
+        "C": "RAID"
+      },
+      "correct_answer": ["B"],
+      "explanation": "Encryption ensures confidentiality by scrambling data so it cannot be read without the correct key. Hashing provides integrity, not confidentiality."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following best describes a Distributed Denial-of-Service (DDoS) attack?",
+      "options": {
+        "A": "The attacker builds a botnet.",
+        "B": "The attacker sends massive amounts of data that the server cannot handle.",
+        "C": "A computer receives data packets based on another computer's MAC address."
+      },
+      "correct_answer": ["A", "B"],
+      "explanation": "In a DDoS attack, the attacker uses a botnet (a network of compromised 'zombie' machines) to send an overwhelming amount of traffic to a target server, making it unable to respond to legitimate requests. Both A and B accurately describe aspects of a DDoS attack."
+    }
+  ]
+}
+

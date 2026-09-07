@@ -1,0 +1,133 @@
+{
+    "question_sets": [
+        {
+          "id": 1,
+          "question": "What is the main purpose of the Turing Test?",
+          "options": {
+            "A": "To measure a machine's computational power",
+            "B": "To test whether a machine can behave indistinguishably from a human in a conversation",
+            "C": "To measure a machine's movement speed",
+            "D": "To test a machine's memory capacity"
+        },
+          "correct_answer": ["B"],
+          "explanation": "The Turing Test assesses a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human through conversation."
+        },
+        {
+          "id": 2,
+          "chapter": "Chapter 3",
+          "question": "For the A* search algorithm to guarantee an optimal solution, what property must the heuristic function have?",
+          "options": {
+            "A": "Admissible (the estimate is never greater than the true cost)",
+            "B": "Consistent (monotonic)",
+            "C": "Both Admissible and Consistent",
+            "D": "No specific property is required"
+          },
+          "correct_answer": ["C"],
+          "explanation": "For Tree Search, admissible is sufficient. However, for Graph Search (which is more commonly used), consistency is required to prevent suboptimal re-expansions. The textbook emphasizes both for a strict guarantee in Graph Search."
+        },
+        {
+          "id": 3,
+          "chapter": "Chapter 5",
+          "question": "When solving a Constraint Satisfaction Problem (CSP), the basic algorithm that assigns values to variables one by one and backtracks when a constraint is violated is called:",
+          "options": {
+            "A": "Hill Climbing",
+            "B": "Simulated Annealing",
+            "C": "Backtracking Search",
+            "D": "Genetic Algorithm"
+          },
+          "correct_answer": ["C"],
+          "explanation": "Backtracking Search is the standard uninformed algorithm for CSPs. It performs a depth-first search and reverts (backtracks) when a dead-end is reached."
+        },
+        {
+          "id": 4,
+          "chapter": "Chapters 7/8",
+          "question": "What is the key difference between Propositional Logic and First-Order Logic (FOL)?",
+          "options": {
+            "A": "FOL does not support inference",
+            "B": "FOL can represent objects, relations, functions, and quantifiers (∀, ∃), whereas Propositional Logic only deals with simple atomic propositions",
+            "C": "Propositional Logic is more powerful than FOL",
+            "D": "They are exactly the same, just with different names"
+          },
+          "correct_answer": "B",
+          "explanation": "Propositional Logic assumes the world contains facts that are true or false. FOL is much more expressive, as it assumes the world contains objects with relations and allows reasoning about properties of those objects using quantifiers."
+        },
+        {
+          "id": 5,
+          "chapter": "Chapters 12/13",
+          "question": "In a Bayesian Network, what does each node represent?",
+          "options": {
+            "A": "A fixed deterministic value",
+            "B": "A random variable",
+            "C": "A decision",
+            "D": "A constraint"
+          },
+          "correct_answer": "B",
+          "explanation": "Each node in a Bayesian Network represents a random variable. The directed edges represent conditional dependencies between these variables."
+        },
+        {
+          "id": 6,
+          "chapter": "Chapter 19",
+          "question": "What type of machine learning uses labeled input-output pairs (supervised data) for training?",
+          "options": {
+            "A": "Unsupervised Learning",
+            "B": "Supervised Learning",
+            "C": "Reinforcement Learning",
+            "D": "Semi-supervised Learning"
+          },
+          "correct_answer": "B",
+          "explanation": "Supervised Learning involves learning a function that maps an input to an output based on example input-output pairs (labeled data)."
+        },
+        {
+          "id": 7,
+          "chapter": "Chapter 22",
+          "question": "What is the main purpose of using an activation function (e.g., ReLU, Sigmoid) in a neural network?",
+          "options": {
+            "A": "To make the network run faster",
+            "B": "To introduce non-linearity into the model",
+            "C": "To normalize the inputs",
+            "D": "To set all network weights to zero"
+          },
+          "correct_answer": "B",
+          "explanation": "Without non-linear activation functions, a deep neural network would behave as a single linear perceptron, which cannot learn complex patterns. Activation functions introduce the required non-linearity."
+        },
+        {
+          "id": 8,
+          "chapter": "Chapter 23",
+          "question": "In Reinforcement Learning, what is the primary objective of an agent?",
+          "options": {
+            "A": "To maximize the immediate reward",
+            "B": "To maximize the cumulative reward (expected return) over time",
+            "C": "To maximize the opponent's reward",
+            "D": "To maximize the learning rate"
+          },
+          "correct_answer": "B",
+          "explanation": "The goal of an RL agent is to learn a policy that maximizes the expected sum of rewards (cumulative reward) over the long term, not just the immediate reward."
+        },
+        {
+          "id": 9,
+          "chapter": "Chapter 24",
+          "question": "What is the main purpose of Word Embedding (e.g., Word2Vec) in Natural Language Processing?",
+          "options": {
+            "A": "To correct spelling mistakes",
+            "B": "To represent words as numerical vectors that capture semantic meaning and relationships",
+            "C": "To parse sentences grammatically",
+            "D": "To translate text from one language to another"
+          },
+          "correct_answer": "B",
+          "explanation": "Word embeddings map words into a continuous vector space where semantically similar words have similar vector representations (e.g., 'king' - 'man' + 'woman' ≈ 'queen')."
+        },
+        {
+          "id": 10,
+          "chapter": "Chapter 28",
+          "question": "In AI Ethics, what is the most important preventive measure against 'Algorithmic Bias'?",
+          "options": {
+            "A": "Building a larger model",
+            "B": "Carefully selecting and cleaning the training data to ensure it does not contain biases related to race, gender, etc.",
+            "C": "Deleting all algorithms entirely",
+            "D": "Reducing the amount of training data"
+          },
+          "correct_answer": "B",
+          "explanation": "Algorithmic bias often stems from biased training data. While algorithmic fixes exist, the most fundamental prevention is careful dataset curation, including auditing for fairness and representativeness."
+        }
+    ]
+},
