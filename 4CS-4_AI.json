@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": 1,
+    "question": "In the PEAS framework for describing task environments, what do the letters 'E' and 'A' specifically stand for?",
+    "options": [
+      "A. Evaluation and Action",
+      "B. Environment and Actuators",
+      "C. Execution and Assessment",
+      "D. Entities and Algorithms"
+    ],
+    "answer": "B. Environment and Actuators",
+    "explanation": "PEAS stands for Performance measure, Environment, Actuators, and Sensors. It is used to describe the task environment in which an intelligent agent operates."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following uninformed search strategies is optimal for finding the shortest path when all step costs are identical, but has high memory requirements (exponential time and space complexity)?",
+    "options": [
+      "A. Depth-First Search (DFS)",
+      "B. Iterative Deepening Depth-First Search (IDDFS)",
+      "C. Breadth-First Search (BFS)",
+      "D. Uniform-Cost Search (UCS)"
+    ],
+    "answer": "C. Breadth-First Search (BFS)",
+    "explanation": "BFS is optimal when all step costs are equal (finding the shallowest goal) but has exponential space complexity (O(b^d)), making it memory-intensive. UCS is optimal for general step costs, while DFS uses less memory but is not optimal."
+  },
+  {
+    "id": 3,
+    "question": "What is the main concept behind the 'Minimum Remaining Values' (MRV) heuristic in Constraint Satisfaction Problems (CSPs)?",
+    "options": [
+      "A. Choose the variable with the largest domain to maximize flexibility.",
+      "B. Choose the variable that has the most constraints with other unassigned variables.",
+      "C. Choose the variable with the fewest legal remaining values (most constrained) to reduce branching.",
+      "D. Choose the variable that appears first in the input order to save computation."
+    ],
+    "answer": "C. Choose the variable with the fewest legal remaining values (most constrained) to reduce branching.",
+    "explanation": "MRV (also called the most constrained variable heuristic) selects the unassigned variable that has the smallest number of remaining legal values, which helps detect failures early and reduces the branching factor."
+  },
+  {
+    "id": 4,
+    "question": "In propositional logic, what does the resolution rule allow us to do with two clauses that contain complementary literals?",
+    "options": [
+      "A. Combine them into a conjunction.",
+      "B. Derive a new clause that contains all literals from both clauses except the complementary pair.",
+      "C. Prove that the knowledge base is inconsistent without inference.",
+      "D. Replace all variables with ground terms."
+    ],
+    "answer": "B. Derive a new clause that contains all literals from both clauses except the complementary pair.",
+    "explanation": "The resolution rule states that if we have clauses (A ∨ B) and (¬B ∨ C), we can resolve them to derive (A ∨ C) by eliminating the complementary literals (B and ¬B)."
+  },
+  {
+    "id": 5,
+    "question": "In a Bayesian network, what does the concept of 'd-separation' (direction-dependent separation) determine?",
+    "options": [
+      "A. Whether two variables are causally dependent on each other.",
+      "B. Whether the network is a Directed Acyclic Graph (DAG).",
+      "C. Whether a set of variables X is conditionally independent of another set Y given a third set Z, based on the graph structure.",
+      "D. The exact probability distribution of the root nodes."
+    ],
+    "answer": "C. Whether a set of variables X is conditionally independent of another set Y given a third set Z, based on the graph structure.",
+    "explanation": "D-separation is a graphical criterion used to read conditional independencies directly from the Bayesian network structure. If X and Y are d-separated by Z, they are conditionally independent given Z."
+  },
+  {
+    "id": 6,
+    "question": "What distinguishes model-based Reinforcement Learning (RL) from model-free RL?",
+    "options": [
+      "A. Model-based RL only works for deterministic environments.",
+      "B. Model-based RL attempts to learn the transition dynamics and reward function of the environment, while model-free RL directly learns a policy or value function without building an explicit environment model.",
+      "C. Model-free RL uses a deep neural network, whereas model-based RL uses Q-tables.",
+      "D. Model-based RL learns from actual experience, while model-free RL only learns from planned hypothetical trajectories."
+    ],
+    "answer": "B. Model-based RL attempts to learn the transition dynamics and reward function of the environment, while model-free RL directly learns a policy or value function without building an explicit environment model.",
+    "explanation": "Model-based methods (e.g., Dyna) build a model of the environment to simulate planning, while model-free methods (e.g., Q-learning, SARSA) directly estimate the optimal policy or value function from interactions."
+  },
+  {
+    "id": 7,
+    "question": "In the context of deep learning, what is the 'vanishing gradient problem'?",
+    "options": [
+      "A. The loss function decreases to zero too quickly, causing overfitting.",
+      "B. Gradients in earlier layers of a deep network become extremely small, preventing those layers from learning effectively.",
+      "C. The gradient descent optimizer loses its gradient vector due to memory overflow.",
+      "D. The activation function saturates and outputs random noise."
+    ],
+    "answer": "B. Gradients in earlier layers of a deep network become extremely small, preventing those layers from learning effectively.",
+    "explanation": "As gradients are back-propagated through many layers, they can become infinitesimally small (especially with activation functions like sigmoid/tanh). This slows down or stalls learning in the early layers of the network."
+  },
+  {
+    "id": 8,
+    "question": "In Natural Language Processing (NLP), which of the following best describes the purpose of stemming or lemmatization?",
+    "options": [
+      "A. To convert a sentence into a syntactic parse tree.",
+      "B. To determine the sentiment polarity of a text.",
+      "C. To reduce words to their base or dictionary form (e.g., 'running' to 'run') to treat variants as the same token.",
+      "D. To translate text from one language to another."
+    ],
+    "answer": "C. To reduce words to their base or dictionary form (e.g., 'running' to 'run') to treat variants as the same token.",
+    "explanation": "Stemming (crude chopping) and lemmatization (using vocabulary and morphological analysis) are text normalization techniques used to reduce inflectional forms to a common base, helping to consolidate vocabulary and improve feature matching."
+  },
+  {
+    "id": 9,
+    "question": "In robotics, what does the 'configuration space' (C-space) of a robot refer to?",
+    "options": [
+      "A. The physical 3D space that the robot occupies in the real world.",
+      "B. The set of all possible positions and orientations (degrees of freedom) of the robot, often represented as a high-dimensional space.",
+      "C. The memory space allocated for path planning algorithms.",
+      "D. The space containing only the obstacles, excluding the free space."
+    ],
+    "answer": "B. The set of all possible positions and orientations (degrees of freedom) of the robot, often represented as a high-dimensional space.",
+    "explanation": "The configuration space (C-space) is the space of all possible configurations of the robot, where a configuration is a complete specification of the position and orientation of every point of the robot. It is fundamental for path planning."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following issues is a central focus of the 'value alignment problem' in AI ethics and philosophy?",
+    "options": [
+      "A. Ensuring AI systems can perfectly simulate human emotions.",
+      "B. Ensuring AI systems can make moral and ethical judgments consistent with human values and intentions.",
+      "C. Ensuring AI systems generate maximum profit for their stakeholders.",
+      "D. Ensuring AI systems have the fastest possible computational speed."
+    ],
+    "answer": "B. Ensuring AI systems can make moral and ethical judgments consistent with human values and intentions.",
+    "explanation": "The value alignment problem asks how we can encode and align AI goals with human values, ensuring that autonomous systems act in ways that are robustly beneficial to humanity and avoid unintended catastrophic consequences."
+  }
+]

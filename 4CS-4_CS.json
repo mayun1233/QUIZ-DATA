@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is NOT one of the five core functions of the NIST Cybersecurity Framework?",
+    "options": [
+      "A. Identify",
+      "B. Protect",
+      "C. Detect",
+      "D. Audit"
+    ],
+    "answer": "D. Audit",
+    "explanation": "The NIST Cybersecurity Framework consists of five core functions: Identify, Protect, Detect, Respond, and Recover."
+  },
+  {
+    "id": 2,
+    "question": "What type of security involves establishing a system of exclusion and inclusion for tangible assets to combat theft and prevent physical damage?",
+    "options": [
+      "A. Cybersecurity",
+      "B. Physical security",
+      "C. Network security",
+      "D. Information security"
+    ],
+    "answer": "B. Physical security",
+    "explanation": "Physical security is the science, technique, and art of establishing a system of exclusion and inclusion for tangible assets."
+  },
+  {
+    "id": 3,
+    "question": "Which technique can be used to replace confidential data with fictitious but realistic data in non-production environments to protect sensitive information?",
+    "options": [
+      "A. Steganography",
+      "B. Data masking",
+      "C. Software obfuscation",
+      "D. Encryption"
+    ],
+    "answer": "B. Data masking",
+    "explanation": "Data masking is a technique used to replace confidential data in environments that are not for production to protect sensitive information."
+  },
+  {
+    "id": 4,
+    "question": "Which Windows utility should be used to configure password rules and account lockout policies on a system that does not belong to a domain?",
+    "options": [
+      "A. Computer Management",
+      "B. Event Viewer",
+      "C. Active Directory Security Tool",
+      "D. Local Security Policy Tool"
+    ],
+    "answer": "D. Local Security Policy Tool",
+    "explanation": "The Local Security Policy Tool is used to configure password rules and account lockout policies on a system that doesn't belong to a domain."
+  },
+  {
+    "id": 5,
+    "question": "What type of network poses increasingly greater challenges for cybersecurity experts due to the growth of BYOD (Bring Your Own Device) on campus?",
+    "options": [
+      "A. Virtual networks",
+      "B. Clandestine networks",
+      "C. Wireless networks",
+      "D. Wired networks"
+    ],
+    "answer": "C. Wireless networks",
+    "explanation": "Wireless networks pose increasingly greater challenges for cybersecurity experts due to the growth of BYOD on campus."
+  },
+  {
+    "id": 6,
+    "question": "What is the primary purpose of a 1-meter high fence in terms of physical security?",
+    "options": [
+      "A. It prevents all types of intruders.",
+      "B. It only discourages casual property invaders.",
+      "C. It offers significant delay to determined intruders.",
+      "D. It provides complete protection against theft."
+    ],
+    "answer": "B. It only discourages casual property invaders.",
+    "explanation": "A 1-meter high fence primarily serves to discourage casual property invaders rather than provide serious delay or prevention."
+  },
+  {
+    "id": 7,
+    "question": "What are the two values needed to calculate the Annual Loss Expectancy (ALE) in risk assessment?",
+    "options": [
+      "A. Exposure factor and single loss expectancy",
+      "B. Annual occurrence rate and single loss expectancy",
+      "C. Frequency factor and quantitative loss value",
+      "D. Asset value and exposure factor"
+    ],
+    "answer": "B. Annual occurrence rate and single loss expectancy",
+    "explanation": "The Annual Loss Expectancy (ALE) is calculated using the Annual Rate of Occurrence (ARO) and the Single Loss Expectancy (SLE)."
+  },
+  {
+    "id": 8,
+    "question": "Which technology should be implemented to authenticate and verify the identity of customers executing electronic transactions?",
+    "options": [
+      "A. Asymmetric cryptography",
+      "B. Symmetric cryptography",
+      "C. Hash data",
+      "D. Digital certificates"
+    ],
+    "answer": "D. Digital certificates",
+    "explanation": "Digital certificates are commonly used to authenticate and verify the identity of entities in electronic transactions."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following protocols can use the Advanced Encryption Standard (AES)?",
+    "options": [
+      "A. WEP only",
+      "B. WPA and WPA2",
+      "C. TLS and IPsec",
+      "D. All of the above"
+    ],
+    "answer": "D. All of the above",
+    "explanation": "Multiple protocols including WEP, WPA/WPA2, TLS, and IPsec can utilize the Advanced Encryption Standard (AES) for encryption."
+  },
+  {
+    "id": 10,
+    "question": "What practice involves installing only applications that meet organizational recommendations and eliminating all others to improve security?",
+    "options": [
+      "A. Asset standardization",
+      "B. Asset classification",
+      "C. Asset availability",
+      "D. Asset identification"
+    ],
+    "answer": "A. Asset standardization",
+    "explanation": "Asset standardization is the practice where a company installs only applications that meet its recommendations and administrators improve security by eliminating all other applications."
+  }
+]
