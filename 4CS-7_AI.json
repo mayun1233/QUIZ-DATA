@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main reason that \"Acting Rationally\" is considered a better definition of AI than \"Thinking Humanly\"?",
+      "options": {
+        "a": "Humans always think rationally, so it is the same thing.",
+        "b": "Rationality can be precisely defined mathematically, whereas human thinking is often irrational and imperfect, making it a less suitable standard for machines.",
+        "c": "There is no technology available to measure human thought yet.",
+        "d": "Acting rationally is easier to pass than the Turing Test."
+      },
+      "answer": "b",
+      "explanation": "The AIMA textbook argues that \"Acting Rationally\" is superior because: (1) Humans are not always rational; they make logical errors and emotional decisions. If we define AI as \"thinking like a human,\" we are limiting machines to human imperfections. (2) Rationality is formally defined by logic and probability (maximizing expected utility), which provides a clear, mathematical standard for success, unlike the subjective and complex nature of human cognition (which involves psychology and neuroscience)."
+    },
+    {
+      "id": 2,
+      "question": "When we classify an Agent's Environment as \"Partially Observable,\" which of the following statements is most accurate?",
+      "options": {
+        "a": "The agent knows the exact state of the environment at all times.",
+        "b": "The agent's sensors do not have complete access to the full state of the environment.",
+        "c": "The agent does not remember its past actions.",
+        "d": "The agent cannot predict the outcome of its actions."
+      },
+      "answer": "b",
+      "explanation": "\"Partially Observable\" means the agent lacks full knowledge of the environment's current state because its sensors have limitations. For example, Chess is Fully Observable because you see the entire board, but Poker is Partially Observable because you cannot see your opponent's hidden cards. (C) refers to an agent's memory, and (D) describes a Stochastic (rather than deterministic) environment."
+    },
+    {
+      "id": 3,
+      "question": "What is the primary factor that distinguishes Uninformed Search from Informed Search?",
+      "options": {
+        "a": "The Depth of the Search Tree.",
+        "b": "Whether a Heuristic Function (h(n)) is used or not.",
+        "c": "Whether Completeness is achieved or not.",
+        "d": "The amount of Memory used."
+      },
+      "answer": "b",
+      "explanation": "Uninformed Search (BFS, DFS, Uniform-Cost) conducts the search without any additional insight (Heuristic) on how to reach the goal. Informed Search (Greedy, A*), on the other hand, uses a Heuristic Function h(n) to guide the search more quickly toward the goal. Therefore, their main difference is the presence or absence of a Heuristic."
+    },
+    {
+      "id": 4,
+      "question": "To guarantee Optimality in the A* Search Algorithm, what property must the Heuristic Function h(n) satisfy?",
+      "options": {
+        "a": "h(n) must be Negative.",
+        "b": "h(n) must be Admissible (or Consistent).",
+        "c": "h(n) must be Complete.",
+        "d": "h(n) must have a high Cost."
+      },
+      "answer": "b",
+      "explanation": "The key to A*'s optimality is that h(n) must be Admissible (it never overestimates the true cost to reach the goal). For Tree Search, Admissible is sufficient. However, for Graph Search, it must also be Consistent (satisfying the Triangle Inequality). (A) is incorrect because heuristics cannot be negative. (C) and (D) are not directly related to optimality."
+    },
+    {
+      "id": 5,
+      "question": "When solving a Constraint Satisfaction Problem (CSP), what concept does \"Backtracking Search\" utilize?",
+      "options": {
+        "a": "Assigning a value to a variable, checking constraints, and backtracking if it fails (Try and Backtrack).",
+        "b": "Testing all possibilities simultaneously.",
+        "c": "Only selecting the best variable using a Heuristic.",
+        "d": "Relaxing the constraints and solving everything."
+      },
+      "answer": "a",
+      "explanation": "The most common search method for CSPs is Backtracking Search, which is combined with Depth-First Search. This method assigns a value to a variable and checks constraints. If no value works, it backtracks to the previously assigned variable and tries a different value. (B) is practically impossible due to scale, (C) is a heuristic method (like MRV) which is only a part of backtracking, and (D) is incorrect."
+    },
+    {
+      "id": 6,
+      "question": "What is the main difference between First-Order Logic (FOL) and Propositional Logic?",
+      "options": {
+        "a": "FOL only has True/False, while Propositional Logic does not.",
+        "b": "FOL can use Variables, Quantifiers (∀, ∃), and Predicates, whereas Propositional Logic cannot.",
+        "c": "Propositional Logic can perform Inference, but FOL cannot.",
+        "d": "FOL is simpler, while Propositional Logic is more complex."
+      },
+      "answer": "b",
+      "explanation": "Propositional Logic treats entire statements as atomic units that are either true or false, and it cannot separate the objects or relationships inside them. FOL, however, can represent Objects, Properties, and Relations, and can use Quantifiers like \"for all\" (∀) or \"there exists\" (∃), making it much more powerful."
+    },
+    {
+      "id": 7,
+      "question": "In First-Order Logic (FOL), what is the precise meaning of the statement:\n∀x (Student(x) → (∃y (Course(y) ∧ Takes(x, y)))) ?",
+      "options": {
+        "a": "Every student is taking at least one course.",
+        "b": "If there is a student, then that student is taking all courses.",
+        "c": "If there is a course, then all students are taking that course.",
+        "d": "If there is a student and a course, then the student is taking the course."
+      },
+      "answer": "a",
+      "explanation": "Let's translate it step-by-step:\n- ∀x (For all x)\n- Student(x) → (if x is a Student)\n- ∃y (there exists a y)\n- Course(y) ∧ Takes(x, y) (such that y is a Course AND x takes y).\nThus, the statement logically translates to \"For every individual, if they are a student, then there exists at least one course they are taking.\" (B) would require ∀y instead of ∃y."
+    },
+    {
+      "id": 8,
+      "question": "In a Bayesian Network, why is the Markov Blanket of a node so important for conditional independence?",
+      "options": {
+        "a": "Because the Markov Blanket only represents the node's parents.",
+        "b": "Because given its Markov Blanket (Parents, Children, and Co-parents), the node is conditionally independent of all other nodes in the network.",
+        "c": "Because the Markov Blanket makes inference slower.",
+        "d": "Because the Markov Blanket only represents the node's children."
+      },
+      "answer": "b",
+      "explanation": "A node's Markov Blanket consists of its Parents + Children + Children's other parents (Co-parents). The key property is that if you know the values of all variables in this blanket, the target node becomes conditionally independent of the rest of the network. This is extremely useful because it means you don't need to consider the entire massive network to make inferences about a single variable; you only need the local information in its blanket."
+    },
+    {
+      "id": 9,
+      "question": "What is the primary ethical concern referred to as the \"Alignment Problem\" in AI?",
+      "options": {
+        "a": "The challenge of ensuring AI systems do not malfunction due to hardware issues.",
+        "b": "The challenge of ensuring the goals, motivations, and behaviors of an AI system are robustly aligned with human values, intentions, and well-being.",
+        "c": "The challenge of ensuring AI systems are connected to the internet.",
+        "d": "The challenge of aligning training data so it is perfectly balanced."
+      },
+      "answer": "b",
+      "explanation": "The Alignment Problem (also known as the Value Alignment Problem) is a major topic in AI ethics and safety (discussed in Chapter 28). It addresses the difficulty of specifying an AI's objective function correctly. If we are not extremely careful, an AI might find a \"loophole\" to achieve its goal in a way that is technically optimal but catastrophic for humans (e.g., \"make the world happy\" -> \"implant electrodes in everyone's brains to stimulate the pleasure center\")."
+    },
+    {
+      "id": 10,
+      "question": "In Deep Learning, which type of neural network suffers the most from the \"Vanishing Gradient Problem,\" and why?",
+      "options": {
+        "a": "Convolutional Neural Networks (CNNs), because the filters are too complex.",
+        "b": "Recurrent Neural Networks (RNNs) and Deep Feedforward Networks, because during backpropagation, gradients are multiplied by small numbers (often <1) across many layers, causing the gradient to shrink to zero and preventing early layers from learning.",
+        "c": "Generative Adversarial Networks (GANs), because the Generator and Discriminator compete.",
+        "d": "Autoencoders, because the output must match the input."
+      },
+      "answer": "b",
+      "explanation": "The Vanishing Gradient problem occurs in networks with many layers (especially RNNs and deep feedforward nets). During backpropagation, the gradient is calculated using the chain rule. If activation functions like Sigmoid or Tanh are used, their derivatives are fractions (e.g., sigmoid's max derivative is 0.25). Multiplying these fractions across dozens of layers causes the gradient to decay exponentially to near zero. As a result, the weights in the earlier layers barely change, and the network stops learning."
+    }
+  ]
+}
