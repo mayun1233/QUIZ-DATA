@@ -1,0 +1,114 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the primary requirement for defining AI as \"Thinking Humanly\"?",
+      "options": [
+        "A. Building a physical robot",
+        "B. Having computer vision capabilities",
+        "C. Cognitive modeling of human thought processes",
+        "D. Having machine learning algorithms"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "What does an agent's \"percept sequence\" refer to?",
+      "options": [
+        "A. All of the agent's actions",
+        "B. The complete history of all sensory inputs the agent has received",
+        "C. The enemies in the agent's environment",
+        "D. The agent's internal database"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "What is the main disadvantage of uninformed search strategies?",
+      "options": [
+        "A. They are not guaranteed to find a solution",
+        "B. They never reach the goal",
+        "C. They can consume excessive time and memory when the state space is large",
+        "D. They cannot be represented as a search tree"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Under what condition does A* search guarantee an optimal solution?",
+      "options": [
+        "A. With any heuristic function",
+        "B. When the heuristic is consistent (admissible) and never overestimates the actual cost",
+        "C. When the heuristic is zero",
+        "D. When the search depth is limited"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of \"constraint propagation\" in a Constraint Satisfaction Problem (CSP)?",
+      "options": [
+        "A. To find all possible solutions",
+        "B. To remove impossible values from a variable's domain",
+        "C. To move closer to the goal",
+        "D. To predict the opponent's moves"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "The Minimax algorithm is primarily used in which type of problem?",
+      "options": [
+        "A. Pathfinding",
+        "B. Two-player adversarial games (e.g., chess, tic-tac-toe)",
+        "C. Machine learning",
+        "D. Natural language processing"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "How does First-Order Logic (FOL) surpass Propositional Logic?",
+      "options": [
+        "A. It is faster",
+        "B. It can represent objects, properties, and relationships between them",
+        "C. It can perform arithmetic calculations",
+        "D. It can connect to the internet"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "What does Universal Instantiation allow us to do?",
+      "options": [
+        "A. Infer P(c) from ∀x P(x) for a specific constant c",
+        "B. Infer P(c) from ∃x P(x) for a specific constant c",
+        "C. Negate a formula",
+        "D. Split a goal into subgoals"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "In which direction does Backward Chaining reason?",
+      "options": [
+        "A. From facts to conclusions (Forward)",
+        "B. From a goal (query) back to supporting evidence (Backward)",
+        "C. In a random direction",
+        "D. From left to right"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "In Knowledge Representation, what does \"Ontology\" refer to?",
+      "options": [
+        "A. A database for storing knowledge",
+        "B. A formal structure that categorizes and defines the types of objects and concepts in a domain",
+        "C. A set of inference rules",
+        "D. A search algorithm"
+      ],
+      "answer": "B"
+    }
+  ]
+}

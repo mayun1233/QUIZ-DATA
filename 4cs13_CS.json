@@ -1,0 +1,119 @@
+{
+  "quiz": {
+    "title": "Cybersecurity Essentials (Chapters 1-10) Quiz",
+    "source_book": "Cybersecurity Essentials by Brooks, Grow, Craig & Short",
+    "total_questions": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following correctly describes the three fundamental pillars of information security, known as the CIA Triad?",
+        "options": [
+          "(A) Confidentiality, Integrity, Availability",
+          "(B) Confidentiality, Authentication, Authorization",
+          "(C) Integrity, Authentication, Availability",
+          "(D) Confidentiality, Authorization, Non-repudiation"
+        ],
+        "answer": "(A)"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following formulas best represents the relationship between Threat, Vulnerability, and Risk?",
+        "options": [
+          "(A) Risk = Threat + Vulnerability",
+          "(B) Risk = Threat × Vulnerability",
+          "(C) Risk = Threat / Vulnerability",
+          "(D) Risk = Vulnerability - Threat"
+        ],
+        "answer": "(B)"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following statements about malware types is incorrect?",
+        "options": [
+          "(A) A Virus can attach itself to other programs or files and replicate.",
+          "(B) A Worm can replicate itself and spread across a network.",
+          "(C) A Trojan disguises itself as a useful program but carries a hidden malicious payload.",
+          "(D) Ransomware is a program designed to infect a system with a virus."
+        ],
+        "answer": "(D)"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is NOT a type of attack that attempts to steal a user's password?",
+        "options": [
+          "(A) Brute-force attack",
+          "(B) Phishing attack",
+          "(C) Dictionary attack",
+          "(D) Denial-of-Service (DoS) attack"
+        ],
+        "answer": "(D)"
+      },
+      {
+        "id": 5,
+        "question": "What is the primary purpose of an Access Control System and a Monitoring System?",
+        "options": [
+          "(A) To allow data to flow more quickly across the network",
+          "(B) To prevent and log unauthorized access attempts",
+          "(C) To make internet connectivity faster",
+          "(D) To automatically update device operating systems"
+        ],
+        "answer": "(B)"
+      },
+      {
+        "id": 6,
+        "question": "CCTV and Biometric devices primarily fall under which aspect of security?",
+        "options": [
+          "(A) Logical Security",
+          "(B) Physical Security",
+          "(C) Network Security",
+          "(D) Application Security"
+        ],
+        "answer": "(B)"
+      },
+      {
+        "id": 7,
+        "question": "Which device plays the primary role in protecting a network's perimeter?",
+        "options": [
+          "(A) Antivirus Software",
+          "(B) Firewall",
+          "(C) Web Browser",
+          "(D) Messaging App"
+        ],
+        "answer": "(B)"
+      },
+      {
+        "id": 8,
+        "question": "TCP is a fundamental part of internet communication. What is TCP's primary responsibility?",
+        "options": [
+          "(A) Assigning IP addresses to devices on a network",
+          "(B) Routing data packets to their destinations",
+          "(C) Verifying that transmitted data arrives correctly and completely",
+          "(D) Displaying the content of web pages"
+        ],
+        "answer": "(C)"
+      },
+      {
+        "id": 9,
+        "question": "What do you call a method that combines two or more factors to verify a user's identity?",
+        "options": [
+          "(A) Single Sign-On (SSO)",
+          "(B) Multi-Factor Authentication (MFA)",
+          "(C) Biometric Authentication",
+          "(D) Password-Based Authentication"
+        ],
+        "answer": "(B)"
+      },
+      {
+        "id": 10,
+        "question": "If a hacker uses social engineering techniques to gain access to an organization's network, which of the following is an example of such a technique?",
+        "options": [
+          "(A) Using a scanner to test for network vulnerabilities",
+          "(B) Sending a fake email to an employee to trick them into revealing their login credentials",
+          "(C) Uploading a malicious program onto a server",
+          "(D) Exploiting a vulnerability in a device's operating system"
+        ],
+        "answer": "(B)"
+      }
+    ]
+  }
+}
