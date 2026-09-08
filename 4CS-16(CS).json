@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary function of an Access Control List (ACL)?",
+    "options": [
+      "A)To encrypt network transmission",
+      "B)To specify which users or system processes have access to specific objects",
+      "C)To track physical movement using cameras",
+      "D)To store user passwords in plain text"
+    ],
+    "answer": "B)To specify which users or system processes have access to specific objects"
+  },
+  {
+    "id": 2,
+    "question": "Why is relying solely on SMS-based 2FA considered a security risk?",
+    "options": [
+      "A)SMS messages are always encrypted end-to-end",
+      "B)SMS codes can be intercepted via SS7 vulnerabilities or SIM swapping",
+      "C)SMS codes never expire",
+      "D)SMS requires an expensive hardware token"
+    ],
+    "answer": "B)SMS codes can be intercepted via SS7 vulnerabilities or SIM swapping"
+  },
+  {
+    "id": 3,
+    "question": "What makes a biometric data breach much worse than a password breach?",
+    "options": [
+      "A)Passwords are harder to remember than biometrics",
+      "B)Biometrics can be easily changed like a password",
+      "C)Physical biometric traits like fingerprints cannot be changed once compromised",
+      "D)Biometric databases are never encrypted"
+    ],
+    "answer": "C)Physical biometric traits like fingerprints cannot be changed once compromised"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following falls under 'Physical Monitoring' in cybersecurity?",
+    "options": [
+      "A)IDS (Intrusion Detection Systems)",
+      "B)SIEM tools analyzing network traffic",
+      "C)CCTV cameras and motion sensors",
+      "D)Time-based One-Time Passwords (TOTP)"
+    ],
+    "answer": "C)CCTV cameras and motion sensors"
+  },
+  {
+    "id": 5,
+    "question": "What is the main purpose of maintaining detailed access logs and audit trails?",
+    "options": [
+      "A)To slow down network performance",
+      "B)To enable forensic analysis and track incident history",
+      "C)To replace physical security guards",
+      "D)To automatically delete suspicious files"
+    ],
+    "answer": "B)To enable forensic analysis and track incident history"
+  },
+  {
+    "id": 6,
+    "question": "Which category of authentication factors does a fingerprint scanner belong to?",
+    "options": [
+      "A)Something you know",
+      "B)Something you have",
+      "C)Something you are",
+      "D)Somewhere you are"
+    ],
+    "answer": "C)Something you are"
+  },
+  {
+    "id": 7,
+    "question": "What is a better alternative to SMS-based 2FA for account security?",
+    "options": [
+      "A)Writing the password on a sticky note",
+      "B)Using an Authenticator app that generates TOTP codes",
+      "C)Disabling two-factor authentication entirely",
+      "D)Using a shorter password"
+    ],
+    "answer": "B)Using an Authenticator app that generates TOTP codes"
+  },
+  {
+    "id": 8,
+    "question": "What does logical monitoring typically track or detect?",
+    "options": [
+      "A)Physical door breaches",
+      "B)Suspicious network patterns, malicious activity, and policy violations",
+      "C)Power outages in the data center",
+      "D)The physical weight of server racks"
+    ],
+    "answer": "B)Suspicious network patterns, malicious activity, and policy violations"
+  },
+  {
+    "id": 9,
+    "question": "In multi-factor authentication, a smart card or hardware token is an example of which factor type?",
+    "options": [
+      "A)Something you know",
+      "B)Something you have",
+      "C)Something you are",
+      "D)Something you do"
+    ],
+    "answer": "B)Something you have"
+  },
+  {
+    "id": 10,
+    "question": "Which system component is critical for tracking who accessed a restricted server room and when?",
+    "options": [
+      "A)Entry logs and visitor sign-in sheets",
+      "B)Network bandwidth graphs",
+      "C)Compiler error messages",
+      "D)Hard drive defragmentation tools"
+    ],
+    "answer": "A)Entry logs and visitor sign-in sheets"
+  }
+]
