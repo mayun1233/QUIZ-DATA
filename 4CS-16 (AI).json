@@ -1,0 +1,223 @@
+[
+
+{
+
+"id": 1,
+
+"question": "What is the name of the famous test proposed by Alan Turing in 1950 to evaluate machine intelligence?",
+
+"options": [
+
+"A) Turing Test",
+
+"B) McCulloch-Pitts Test",
+
+"C) Dartmouth Test",
+
+"D) Minimax Test"
+
+],
+
+"answer": "A) Turing Test"
+
+},
+
+{
+
+"id": 2,
+
+"question": "Who coined the term 'Artificial Intelligence' at the Dartmouth Workshop in 1956?",
+
+"options": [
+
+"A) Alan Turing",
+
+"B) John McCarthy",
+
+"C) Peter Norvig",
+
+"D) Stuart Russell"
+
+],
+
+"answer": "B) John McCarthy"
+
+},
+
+{
+
+"id": 3,
+
+"question": "Which algorithm is commonly used in game theory to find the optimal move, assuming the opponent also plays optimally?",
+
+"options": [
+
+"A) Breadth-First Search",
+
+"B) A* Search",
+
+"C) Minimax Algorithm",
+
+"D) Uniform-Cost Search"
+
+],
+
+"answer": "C) Minimax Algorithm"
+
+},
+
+{
+
+"id": 4,
+
+"question": "What optimization technique is used with the minimax algorithm to eliminate branches that do not need to be explored?",
+
+"options": [
+
+"A) Alpha-Beta Pruning",
+
+"B) Monte Carlo Rollout",
+
+"C) Expectiminimax",
+
+"D) Backpropagation"
+
+],
+
+"answer": "A) Alpha-Beta Pruning"
+
+},
+
+{
+
+"id": 5,
+
+"question": "In A* search, what is the evaluation function f(n) calculated as?",
+
+"options": [
+
+"A) f(n) = g(n)",
+
+"B) f(n) = h(n)",
+
+"C) f(n) = g(n) + h(n)",
+
+"D) f(n) = g(n) * h(n)"
+
+],
+
+"answer": "C) f(n) = g(n) + h(n)"
+
+},
+
+{
+
+"id": 6,
+
+"question": "What type of games involve luck or randomness, such as rolling dice in backgammon?",
+
+"options": [
+
+"A) Deterministic games",
+
+"B) Stochastic games",
+
+"C) Fully observable games",
+
+"D) Static games"
+
+],
+
+"answer": "B) Stochastic games"
+
+},
+
+{
+
+"id": 7,
+
+"question": "Which search algorithm utilizes random sampling and simulations, famously used in computer Go programs like AlphaGo?",
+
+"options": [
+
+"A) Depth-First Search",
+
+"B) Hill-Climbing Search",
+
+"C) Monte Carlo Tree Search (MCTS)",
+
+"D) Greedy Best-First Search"
+
+],
+
+"answer": "C) Monte Carlo Tree Search (MCTS)"
+
+},
+
+{
+
+"id": 8,
+
+"question": "What kind of games have hidden information where players cannot see the entire state, such as card games?",
+
+"options": [
+
+"A) Fully observable games",
+
+"B) Partially observable games",
+
+"C) Deterministic games",
+
+"D) Zero-sum games"
+
+],
+
+"answer": "B) Partially observable games"
+
+},
+
+{
+
+"id": 9,
+
+"question": "What is the primary characteristic of a zero-sum game?",
+
+"options": [
+
+"A) Both players win together",
+
+"B) One player's gain is strictly the other player's loss",
+
+"C) No player can make a move",
+
+"D) The game always ends in a tie"
+
+],
+
+"answer": "B) One player's gain is strictly the other player's loss"
+
+},
+
+{
+
+"id": 10,
+
+"question": "What period in AI history was marked by a severe reduction in funding and interest due to over-promised results?",
+
+"options": [
+
+"A) AI Spring",
+
+"B) Deep Learning Era",
+
+"C) AI Winter",
+
+"D) The Golden Age"
+
+],
+
+"answer": "C) AI Winter"
+
+}
+
+]
