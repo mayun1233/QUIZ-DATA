@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "What are the three core objectives of the CIA Triad in cybersecurity?",
+    "options": {
+      "A": "Confidentiality, Integrity, Availability",
+      "B": "Authentication, Authorization, Accounting",
+      "C": "Encryption, Isolation, Backup",
+      "D": "Hardware, Software, Data"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": 2,
+    "question": "What do you call the security method that combines 'something you know' (a password) with 'something you have' (a one-time code token) to verify a user?",
+    "options": {
+      "A": "Single Sign-On (SSO)",
+      "B": "Multi-Factor Authentication (MFA)",
+      "C": "Biometric Verification",
+      "D": "Role-Based Access Control (RBAC)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 3,
+    "question": "Which system not only detects intrusions into a network but can also automatically block and stop them in real-time?",
+    "options": {
+      "A": "IDS (Intrusion Detection System)",
+      "B": "IPS (Intrusion Prevention System)",
+      "C": "SIEM (Security Information and Event Management)",
+      "D": "Honeypot"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 4,
+    "question": "What type of malicious software replicates itself by attaching to other files and requires user action (like running a program) to spread?",
+    "options": {
+      "A": "Trojan Horse",
+      "B": "Worm",
+      "C": "Virus",
+      "D": "Ransomware"
+    },
+    "correctAnswer": "C",
+    "note": "Worms spread independently without needing a host file or user action."
+  },
+  {
+    "id": 5,
+    "question": "Which type of firewall inspects only the header information of individual data packets and does not track the state of active connections?",
+    "options": {
+      "A": "Stateful Firewall",
+      "B": "Stateless (Packet-Filtering) Firewall",
+      "C": "Application Gateway (Proxy)",
+      "D": "Next-Generation Firewall (NGFW)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 6,
+    "question": "What technology creates a secure, encrypted communication 'tunnel' over a public network like the internet?",
+    "options": {
+      "A": "VLAN (Virtual Local Area Network)",
+      "B": "VPN (Virtual Private Network)",
+      "C": "VPC (Virtual Private Cloud)",
+      "D": "NAT (Network Address Translation)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 7,
+    "question": "In social engineering attacks, what is the technique called when an attacker sends fraudulent emails pretending to be a legitimate organization to steal personal information?",
+    "options": {
+      "A": "Phishing",
+      "B": "Vishing",
+      "C": "Smishing",
+      "D": "Pretexting"
+    },
+    "correctAnswer": "A",
+    "note": "Vishing uses voice calls, Smishing uses SMS texts."
+  },
+  {
+    "id": 8,
+    "question": "What encryption method uses the exact same key to both encrypt and decrypt data (e.g., AES)?",
+    "options": {
+      "A": "Asymmetric Encryption",
+      "B": "Symmetric Encryption",
+      "C": "Hashing",
+      "D": "Public Key Infrastructure (PKI)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 9,
+    "question": "Which risk management strategy involves actively taking steps to reduce the impact of a potential threat to an acceptable level?",
+    "options": {
+      "A": "Risk Avoidance",
+      "B": "Risk Transference (e.g., purchasing insurance)",
+      "C": "Risk Mitigation",
+      "D": "Risk Acceptance"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "id": 10,
+    "question": "What type of attack floods a target server or network with massive amounts of traffic from multiple different sources simultaneously to cause a service outage?",
+    "options": {
+      "A": "Man-in-the-Middle (MitM)",
+      "B": "Denial of Service (DoS)",
+      "C": "Distributed Denial of Service (DDoS)",
+      "D": "Zero-Day Exploit"
+    },
+    "correctAnswer": "C"
+  }
+]

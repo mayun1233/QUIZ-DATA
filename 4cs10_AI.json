@@ -1,0 +1,116 @@
+{
+  "quiz":[
+    {
+      "id": 1,
+      "question": "The textbook defines AI primarily through the lens of the rational agent approach because it is:",
+      "options": {
+        "A": "The oldest philosophical view",
+        "B": "More general and allows for rigorous mathematical analysis of behavior",
+        "C": "Easier to implement than the \"thinking humanly\" approach",
+        "D": "The only approach that uses neural networks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "What is the defining property of an admissible heuristic h(n) in A* search?",
+      "options": {
+        "A": "It never overestimates the true cost to reach the goal",
+        "B": "It always returns the exact remaining cost",
+        "C": "It is always faster to compute than other heuristics",
+        "D": "It guarantees a suboptimal path"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "In CSPs, Arc Consistency (AC-3) is a form of inference that ensures:",
+      "options": {
+        "A": "Every variable has at least one value that satisfies the constraint with its neighbors",
+        "B": "The solution is globally optimal",
+        "C": "No backtracking is ever needed",
+        "D": "Variables are sorted alphabetically"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Unification is the fundamental inference operation that:",
+      "options": {
+        "A": "Finds a substitution to make two logical expressions identical",
+        "B": "Calculates the probability of an event",
+        "C": "Trains a support vector machine",
+        "D": "Extracts edges from an image"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Bayes' Rule is mathematically expressed as P(H|E) = P(E|H) * P(H) / P(E). It is used to:",
+      "options": {
+        "A": "Find the optimal path in a graph",
+        "B": "Update prior beliefs based on new evidence (likelihood)",
+        "C": "Sort a list of numbers",
+        "D": "Compile a program"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "In a Markov Decision Process (MDP), the Bellman Equation recursively defines the value of a state as:",
+      "options": {
+        "A": "The immediate reward plus the discounted value of the best next state",
+        "B": "The total number of actions taken",
+        "C": "The probability of reaching the goal",
+        "D": "The depth of the search tree"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "The EM (Expectation-Maximization) algorithm is specifically designed for:",
+      "options": {
+        "A": "Learning with completely observed data only",
+        "B": "Maximum likelihood estimation when there are hidden (unobserved) variables",
+        "C": "Deep learning optimization",
+        "D": "Decision tree pruning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "The fundamental trade-off in active Reinforcement Learning is:",
+      "options": {
+        "A": "Accuracy vs. Precision",
+        "B": "Exploration (trying new actions) vs. Exploitation (using known good actions)",
+        "C": "Memory vs. Speed",
+        "D": "Supervised vs. Unsupervised"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "The Transformer architecture revolutionized NLP because it:",
+      "options": {
+        "A": "Relies on recurrent connections",
+        "B": "Uses the attention mechanism and processes sequences in parallel (no recurrence)",
+        "C": "Requires manual feature engineering",
+        "D": "Only works for images"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "The Chinese Room argument (Searle) challenges the idea that:",
+
+"options": {
+        "A": "Machines can play chess",
+        "B": "Syntactic manipulation of symbols (which computers do) is sufficient for true understanding/consciousness",
+        "C": "Machines are fast",
+        "D": "Programs are useful"
+      },
+      "answer": "B"
+    }
+
+]
+}
