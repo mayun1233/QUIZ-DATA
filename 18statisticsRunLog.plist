@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>action</key>
+		<string>Start</string>
+		<key>memo</key>
+		<string></string>
+		<key>rstime</key>
+		<integer>0</integer>
+		<key>runlogtypeName</key>
+		<string>Start</string>
+		<key>time</key>
+		<integer>1785717802000</integer>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>Stop</string>
+		<key>memo</key>
+		<string></string>
+		<key>rstime</key>
+		<integer>0</integer>
+		<key>runlogtypeName</key>
+		<string>Stop</string>
+		<key>time</key>
+		<integer>1785717832000</integer>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>Start</string>
+		<key>memo</key>
+		<string></string>
+		<key>rstime</key>
+		<integer>0</integer>
+		<key>runlogtypeName</key>
+		<string>Start</string>
+		<key>time</key>
+		<integer>1785717834000</integer>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>Start</string>
+		<key>memo</key>
+		<string></string>
+		<key>rstime</key>
+		<integer>0</integer>
+		<key>runlogtypeName</key>
+		<string>Start</string>
+		<key>time</key>
+		<integer>1785735833000</integer>
+	</dict>
+</array>
+</plist>
