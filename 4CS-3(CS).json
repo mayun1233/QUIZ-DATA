@@ -1,0 +1,146 @@
+{
+  "quiz_title": "Cybersecurity Essentials - Chapter 1 to 24 (Part 4) Quiz",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "topic": "NIST Cybersecurity Framework",
+      "question": "In the NIST Cybersecurity Framework, what does the 'Detect' function primarily refer to?",
+      "options": {
+        "A": "Proactively preventing potential cyberattacks",
+        "B": "Continuously monitoring and identifying cybersecurity events",
+        "C": "Restoring systems after a cyberattack",
+        "D": "Establishing internal cybersecurity policies"
+      },
+      "correct_answer": "B",
+      "explanation": "The Detect function in the NIST Framework focuses on continuous monitoring and identifying cybersecurity events in real-time."
+    },
+    {
+      "id": 2,
+      "chapter": 3,
+      "topic": "Video Surveillance Systems",
+      "question": "Which of the following is NOT a core component of a Video Surveillance System?",
+      "options": {
+        "A": "Camera",
+        "B": "Recorder",
+        "C": "Antivirus Software",
+        "D": "Monitor"
+      },
+      "correct_answer": "C",
+      "explanation": "Antivirus software is not a core hardware component of a video surveillance system; cameras, recorders, and monitors are the primary components."
+    },
+    {
+      "id": 3,
+      "chapter": 4,
+      "topic": "Intrusion Detection Systems (IDS)",
+      "question": "What is the primary purpose of an Intrusion Detection System (IDS)?",
+      "options": {
+        "A": "To block all network traffic",
+        "B": "To monitor for suspicious activity and generate alerts",
+        "C": "To encrypt sensitive data",
+        "D": "To manage user passwords"
+      },
+      "correct_answer": "B",
+      "explanation": "The main goal of an IDS is to monitor network traffic for suspicious behavior and issue alerts when potential threats are detected."
+    },
+    {
+      "id": 4,
+      "chapter": 6,
+      "topic": "Securing Devices",
+      "question": "Which of the following is the most effective protection method for securing devices?",
+      "options": {
+        "A": "Regular software patching and updates",
+        "B": "Turning off the monitor",
+        "C": "Unplugging the printer",
+        "D": "Replacing the keyboard"
+      },
+      "correct_answer": "A",
+      "explanation": "Regularly applying software patches and updates is one of the most critical measures for keeping devices secure against known vulnerabilities."
+    },
+    {
+      "id": 5,
+      "chapter": 13,
+      "topic": "Networking Protocols",
+      "question": "What is the primary role of networking protocols?",
+      "options": {
+        "A": "To define how devices communicate over a network",
+        "B": "To manufacture hardware components",
+        "C": "To sell software licenses",
+        "D": "To delete stored data"
+      },
+      "correct_answer": "A",
+      "explanation": "Networking protocols are sets of rules that define how devices exchange data and communicate across a network."
+    },
+    {
+      "id": 6,
+      "chapter": 14,
+      "topic": "Network Servers",
+      "question": "Which of the following is NOT a common type of network server?",
+      "options": {
+        "A": "File Server",
+        "B": "Web Server",
+        "C": "Print Server",
+        "D": "Monitor Server"
+      },
+      "correct_answer": "D",
+      "explanation": "'Monitor Server' is not a standard server type. File, Web, and Print servers are all common network server categories."
+    },
+    {
+      "id": 7,
+      "chapter": 16,
+      "topic": "Network Transmission Media",
+      "question": "What should be prioritized for securing network transmission media?",
+      "options": {
+        "A": "Encrypting data during transmission",
+        "B": "Coloring the cables for identification",
+        "C": "Increasing network speed",
+        "D": "Reducing the number of connected devices"
+      },
+      "correct_answer": "A",
+      "explanation": "Encrypting data ensures that even if it is intercepted during transmission, it remains unreadable and secure."
+    },
+    {
+      "id": 8,
+      "chapter": 19,
+      "topic": "Private Network Protection",
+      "question": "What is the most commonly used method to protect a private network from external access?",
+      "options": {
+        "A": "Using a Firewall",
+        "B": "Changing the network name",
+        "C": "Reducing the number of computers",
+        "D": "Disconnecting the internet entirely"
+      },
+      "correct_answer": "A",
+      "explanation": "A firewall acts as a barrier between a private internal network and external networks, blocking unauthorized access."
+    },
+    {
+      "id": 9,
+      "chapter": 20,
+      "topic": "Internet Data Security",
+      "question": "What is the most important measure for securing data moving through the Internet?",
+      "options": {
+        "A": "Using a VPN (Virtual Private Network)",
+        "B": "Reducing the volume of data",
+        "C": "Increasing internet speed",
+        "D": "Blocking specific websites"
+      },
+      "correct_answer": "A",
+      "explanation": "A VPN creates an encrypted tunnel for data, ensuring secure and private communication over the public internet."
+    },
+    {
+      "id": 10,
+      "chapter": 24,
+      "topic": "Perimeter Security",
+      "question": "What is the primary goal of Perimeter Security?",
+      "options": {
+        "A": "To protect the organization's network and infrastructure from external threats",
+        "B": "To calculate employee payroll",
+        "C": "To develop new products",
+        "D": "To prepare accounting documents"
+      },
+      "correct_answer": "A",
+      "explanation": "Perimeter security focuses on defending the boundary of an organization's internal network and physical facilities against outside attacks and intrusions."
+    }
+  ]
+}
