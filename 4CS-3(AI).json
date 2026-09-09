@@ -1,0 +1,119 @@
+{
+  "book": {
+    "title": "Artificial Intelligence: A Modern Approach",
+    "edition": "Fourth Edition (Global Edition)",
+    "authors": ["Stuart Russell", "Peter Norvig"]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the primary role of an Agent?",
+      "options": {
+        "A": "To follow pre-defined instructions",
+        "B": "To perceive the environment through percept sequences and select actions accordingly",
+        "C": "To store and retrieve data",
+        "D": "To communicate with other agents"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an Uninformed Search method?",
+      "options": {
+        "A": "A* Search",
+        "B": "Greedy Best-First Search",
+        "C": "Breadth-First Search",
+        "D": "Heuristic Search"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Which search method is commonly used for games against an adversary?",
+      "options": {
+        "A": "Constraint Satisfaction Problem solving",
+        "B": "Monte Carlo Tree Search",
+        "C": "Local Search",
+        "D": "Online Search"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "The 'Wumpus World' is often used as an example to illustrate which topic?",
+      "options": {
+        "A": "Safe robot control",
+        "B": "Knowledge-Based Agents",
+        "C": "Natural Language Processing",
+        "D": "Advanced machine learning techniques"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a component of First-Order Logic?",
+      "options": {
+        "A": "Objects",
+        "B": "Properties",
+        "C": "Probability Values",
+        "D": "Relations"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which chapter deals with decision-making under uncertainty?",
+      "options": {
+        "A": "Automated Planning",
+        "B": "Quantifying Uncertainty",
+        "C": "Deep Learning",
+        "D": "Logical Agents"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a newly added chapter in the Fourth Edition?",
+      "options": {
+        "A": "Problem Solving",
+        "B": "Adversarial Search and Games",
+        "C": "Probabilistic Programming",
+        "D": "Logical Agents"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "The Machine Learning section includes all of the following EXCEPT:",
+      "options": {
+        "A": "Learning from Examples",
+        "B": "Reinforcement Learning",
+        "C": "Decision Theory",
+        "D": "Deep Learning"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "What is the main purpose of the Turing Test?",
+      "options": {
+        "A": "To evaluate how quickly a machine can solve mathematical problems",
+        "B": "To assess whether a machine can demonstrate intelligence indistinguishable from a human",
+        "C": "To test how accurately a machine can classify images",
+        "D": "To measure how effectively a machine can search for information online"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is discussed in the concluding chapters on AI's future and ethics?",
+      "options": {
+        "A": "Robotics",
+        "B": "Philosophy and Ethics of AI",
+        "C": "Natural Language Processing",
+        "D": "Probabilistic Reasoning"
+      },
+      "answer": "B"
+    }
+  ]
+}
