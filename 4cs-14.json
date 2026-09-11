@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the name of the test that evaluates a machine's ability to exhibit intelligent behavior indistinguishable from a human?",
+      "options": {
+        "A": "Turing Test",
+        "B": "Lovelace Test",
+        "C": "Chinese Room Test",
+        "D": "Voight-Kampff Test"
+      },
+      "answer": "A",
+      "why_this_question": "This question tests foundational knowledge of AI history and the philosophy of intelligence. The Turing Test is one of the most famous concepts introduced in the early chapters of AIMA, which discuss what it means for a machine to 'act humanly.'",
+      "why_this_answer": "The Turing Test, proposed by Alan Turing in 1950, evaluates a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. In the test, a human interrogator communicates with both a machine and a human without seeing them, and must determine which is which. If the machine can consistently fool the interrogator, it is said to have passed the test. The Lovelace Test is a different, more recent test; the Chinese Room is a philosophical argument by Searle; and the Voight-Kampff Test is from the movie Blade Runner."
+    },
+    {
+      "id": 2,
+      "question": "In AIMA, an agent that always selects the action expected to maximize its performance measure is called a:",
+      "options": {
+        "A": "Simple reflex agent",
+        "B": "Goal-based agent",
+        "C": "Rational agent",
+        "D": "Utility-based agent"
+      },
+      "answer": "C",
+      "why_this_question": "This question tests understanding of the core concept of agent rationality, which is central to AIMA's definition of AI as the study and construction of rational agents. It distinguishes between different agent architectures.",
+      "why_this_answer": "A rational agent is explicitly defined in AIMA as one that acts to maximize its expected performance measure, given its percept sequence and built-in knowledge. A simple reflex agent acts only on current percepts; a goal-based agent acts to achieve goals; and a utility-based agent uses a utility function to measure preferences. While utility-based agents are a type of rational agent, the term 'rational agent' is the broad definition that directly matches the description in the question."
+    },
+    {
+      "id": 3,
+      "question": "Which search strategy is complete and optimal when all step costs are equal?",
+      "options": {
+        "A": "Depth-first search",
+        "B": "Breadth-first search",
+        "C": "Greedy best-first search",
+        "D": "Depth-limited search"
+      },
+      "answer": "B",
+      "why_this_question": "This question tests knowledge of uninformed search strategies and their properties (completeness, optimality, time/space complexity), which are fundamental topics in AIMA's search chapters.",
+      "why_this_answer": "Breadth-first search (BFS) explores all nodes at a given depth before moving deeper. When all step costs are equal, BFS is guaranteed to find the shallowest goal, which is also the optimal (least-cost) solution. It is also complete if the branching factor is finite. DFS is not optimal and can get stuck in infinite paths; greedy best-first search is not optimal; and depth-limited search is not complete if the goal is deeper than the limit."
+    },
+    {
+      "id": 4,
+      "question": "What does A* search use to guide its search?",
+      "options": {
+        "A": "Only the cost to reach a node",
+        "B": "Only a heuristic estimate to the goal",
+        "C": "The sum of path cost and heuristic estimate",
+        "D": "Random selection among frontier nodes"
+      },
+      "answer": "C",
+      "why_this_question": "This question tests understanding of informed search, specifically the A* algorithm, which is one of the most important search algorithms in AI and is covered extensively in AIMA.",
+      "why_this_answer": "A* evaluates nodes using the function f(n) = g(n) + h(n), where g(n) is the cost to reach node n from the start, and h(n) is the heuristic estimate of the cost from n to the goal. By combining both, A* balances actual cost so far and estimated remaining cost. Using only g(n) would make it uniform-cost search; using only h(n) would make it greedy best-first search. Random selection is not a principled search strategy."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT one of the four categories of AI definitions in AIMA?",
+      "options": {
+        "A": "Thinking humanly",
+        "B": "Acting humanly",
+        "C": "Thinking rationally",
+        "D": "Feeling emotionally"
+      },
+      "answer": "D",
+      "why_this_question": "This question tests knowledge of how AIMA categorizes the definitions of AI, which is presented in Chapter 1 and frames the entire field.",
+      "why_this_answer": "AIMA organizes AI definitions along two dimensions: human vs. rational, and thinking vs. acting, giving four categories: thinking humanly, acting humanly, thinking rationally, and acting rationally. 'Feeling emotionally' is not one of these categories. While emotions are relevant to some AI subfields (like affective computing), they are not part of the foundational four-category framework in AIMA."
+    },
+    {
+      "id": 6,
+      "question": "In propositional logic, what is a sentence that is true in every possible interpretation called?",
+      "options": {
+        "A": "Satisfiable",
+        "B": "Valid",
+        "C": "Unsatisfiable",
+        "D": "Contingent"
+      },
+      "answer": "B",
+      "why_this_question": "This question tests basic concepts of propositional logic semantics, which are essential for understanding knowledge representation and reasoning in AIMA.",
+      "why_this_answer": "A valid sentence (also called a tautology) is true under all possible truth assignments to its propositional variables. A satisfiable sentence is true under at least one interpretation; an unsatisfiable sentence is false under all interpretations; and a contingent sentence is true under some interpretations and false under others. Therefore, 'valid' is the correct term for a sentence true in every possible interpretation."
+    },
+    {
+      "id": 7,
+      "question": "Which algorithm is commonly used for inference in Bayesian networks?",
+      "options": {
+        "A": "Minimax",
+        "B": "Variable elimination",
+        "C": "Alpha-beta pruning",
+        "D": "Gradient descent"
+      },
+      "answer": "B",
+      "why_this_question": "This question tests knowledge of probabilistic reasoning, specifically exact inference methods in Bayesian networks, a major topic in AIMA's uncertainty chapters.",
+      "why_this_answer": "Variable elimination is a widely used exact inference algorithm for Bayesian networks. It works by eliminating (summing out) hidden variables one at a time while multiplying the relevant factors, which reduces computational complexity compared to naive enumeration. Minimax and alpha-beta pruning are for adversarial search; gradient descent is an optimization method used in learning, not for Bayesian network inference."
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of alpha-beta pruning in game trees?",
+      "options": {
+        "A": "To find a better move than minimax",
+        "B": "To reduce the number of nodes evaluated by minimax",
+        "C": "To handle stochastic games",
+        "D": "To learn game strategies from data"
+      },
+      "answer": "B",
+      "why_this_question": "This question tests understanding of adversarial search optimization, a key topic in AIMA's chapters on game playing.",
+      "why_this_answer": "Alpha-beta pruning is an optimization technique for the minimax algorithm. It does not change the final decision minimax would make; instead, it prunes branches that cannot possibly influence the final decision, thereby reducing the number of nodes evaluated. This makes minimax feasible for deeper game trees. It does not find better moves than minimax (it returns the same move), nor is it designed for stochastic games or learning."
+    },
+    {
+      "id": 9,
+      "question": "In machine learning, what is supervised learning primarily concerned with?",
+      "options": {
+        "A": "Learning from labeled examples",
+        "B": "Learning from unlabeled data",
+        "C": "Learning through trial and error with rewards",
+        "D": "Learning by clustering similar data points"
+      },
+      "answer": "A",
+      "why_this_question": "This question tests foundational knowledge of machine learning paradigms, which are covered in AIMA's learning chapters.",
+      "why_this_answer": "Supervised learning uses a training set of input-output pairs (labeled examples) to learn a mapping from inputs to outputs. The goal is to generalize to unseen inputs. Learning from unlabeled data is unsupervised learning; learning through rewards is reinforcement learning; and clustering is a common unsupervised learning task. Therefore, 'learning from labeled examples' is the defining characteristic of supervised learning."
+    },
+    {
+      "id": 10,
+      "question": "What does the \"frame problem\" in AI refer to?",
+      "options": {
+        "A": "The difficulty of representing what stays the same after an action",
+        "B": "The challenge of rendering 3D graphics",
+        "C": "The problem of storing large knowledge bases",
+        "D": "The issue of overfitting in neural networks"
+      },
+      "answer": "A",
+      "why_this_question": "This question tests knowledge of a classic problem in knowledge representation and reasoning, discussed in AIMA in the context of planning and logic.",
+      "why_this_answer": "The frame problem is the challenge of representing, in a logical system, which facts remain unchanged after an action is performed. When an action occurs, most properties of the world stay the same, but explicitly stating all non-changes (frame axioms) leads to a combinatorial explosion. This is a fundamental issue in planning and knowledge representation. The other options are unrelated to the frame problem."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the name of the test that evaluates a machine's ability to exhibit intelligent behavior indistinguishable from a human?",
+      "options": {
+        "A": "Turing Test",
+        "B": "Lovelace Test",
+        "C": "Chinese Room Test",
+        "D": "Voight-Kampff Test"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "In AIMA, an agent that always selects the action expected to maximize its performance measure is called a:",
+      "options": {
+        "A": "Simple reflex agent",
+        "B": "Goal-based agent",
+        "C": "Rational agent",
+        "D": "Utility-based agent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Which search strategy is complete and optimal when all step costs are equal?",
+      "options": {
+        "A": "Depth-first search",
+        "B": "Breadth-first search",
+        "C": "Greedy best-first search",
+        "D": "Depth-limited search"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "What does A* search use to guide its search?",
+      "options": {
+        "A": "Only the cost to reach a node",
+        "B": "Only a heuristic estimate to the goal",
+        "C": "The sum of path cost and heuristic estimate",
+        "D": "Random selection among frontier nodes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT one of the four categories of AI definitions in AIMA?",
+      "options": {
+        "A": "Thinking humanly",
+        "B": "Acting humanly",
+        "C": "Thinking rationally",
+        "D": "Feeling emotionally"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "In propositional logic, what is a sentence that is true in every possible interpretation called?",
+      "options": {
+        "A": "Satisfiable",
+        "B": "Valid",
+        "C": "Unsatisfiable",
+        "D": "Contingent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Which algorithm is commonly used for inference in Bayesian networks?",
+      "options": {
+        "A": "Minimax",
+        "B": "Variable elimination",
+        "C": "Alpha-beta pruning",
+        "D": "Gradient descent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of alpha-beta pruning in game trees?",
+      "options": {
+        "A": "To find a better move than minimax",
+        "B": "To reduce the number of nodes evaluated by minimax",
+        "C": "To handle stochastic games",
+        "D": "To learn game strategies from data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "In machine learning, what is supervised learning primarily concerned with?",
+      "options": {
+        "A": "Learning from labeled examples",
+        "B": "Learning from unlabeled data",
+        "C": "Learning through trial and error with rewards",
+        "D": "Learning by clustering similar data points"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "What does the \"frame problem\" in AI refer to?",
+      "options": {
+        "A": "The difficulty of representing what stays the same after an action",
+        "B": "The challenge of rendering 3D graphics",
+        "C": "The problem of storing large knowledge bases",
+        "D": "The issue of overfitting in neural networks"
+      },
+      "answer": "A"
+    }
+  ]
+}
