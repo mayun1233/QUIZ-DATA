@@ -1,0 +1,128 @@
+{
+  "quiz": {
+    "title": "Artificial Intelligence Multiple Choice Quiz",
+    "total_questions": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is Artificial Intelligence (AI)?",
+        "options": {
+          "A": "A programming language used for web development",
+          "B": "A field of computer science focused on creating machines that can perform tasks that typically require human intelligence",
+          "C": "A type of hardware that processes data faster than traditional computers",
+          "D": "A database management system"
+        },
+        "correct_answer": "B",
+        "explanation": "AI is the simulation of human intelligence processes by machines, especially computer systems. It includes learning, reasoning, and self-correction."
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a subfield of Artificial Intelligence?",
+        "options": {
+          "A": "Web Development",
+          "B": "Machine Learning",
+          "C": "Cloud Computing",
+          "D": "Network Security"
+        },
+        "correct_answer": "B",
+        "explanation": "Machine Learning is a core subfield of AI that enables systems to learn from data without being explicitly programmed."
+      },
+      {
+        "id": 3,
+        "question": "What is Machine Learning (ML)?",
+        "options": {
+          "A": "A type of computer virus",
+          "B": "A branch of AI that allows systems to learn and improve from experience without explicit programming",
+          "C": "A programming paradigm focused on object-oriented design",
+          "D": "A hardware component used for graphics rendering"
+        },
+        "correct_answer": "B",
+        "explanation": "Machine Learning uses algorithms that learn patterns from data and make predictions or decisions based on that data, improving over time."
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is an example of Supervised Learning?",
+        "options": {
+          "A": "Clustering customers based on purchasing behavior",
+          "B": "Predicting house prices based on historical data",
+          "C": "Finding hidden patterns in unlabeled data",
+          "D": "Playing chess without any training data"
+        },
+        "correct_answer": "B",
+        "explanation": "Supervised Learning uses labeled data to train models. Predicting house prices uses historical data with known outcomes (prices) as labels."
+      },
+      {
+        "id": 5,
+        "question": "What is the main difference between Supervised and Unsupervised Learning?",
+        "options": {
+          "A": "Supervised learning uses labeled data; Unsupervised learning uses unlabeled data",
+          "B": "Supervised learning is faster than Unsupervised learning",
+          "C": "Unsupervised learning requires more computing power",
+          "D": "Supervised learning does not use algorithms"
+        },
+        "correct_answer": "A",
+        "explanation": "Supervised Learning requires labeled input-output pairs for training, while Unsupervised Learning finds patterns in unlabeled data without predefined labels."
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is NOT a type of Machine Learning?",
+        "options": {
+          "A": "Supervised Learning",
+          "B": "Unsupervised Learning",
+          "C": "Reinforcement Learning",
+          "D": "Predictive Learning"
+        },
+        "correct_answer": "D",
+        "explanation": "The three main types of Machine Learning are Supervised Learning, Unsupervised Learning, and Reinforcement Learning. 'Predictive Learning' is not a standard category."
+      },
+      {
+        "id": 7,
+        "question": "What is a Neural Network in AI?",
+        "options": {
+          "A": "A network of computers connected via the internet",
+          "B": "A computational model inspired by the human brain, consisting of interconnected nodes (neurons)",
+          "C": "A type of database structure",
+          "D": "A programming framework for web applications"
+        },
+        "correct_answer": "B",
+        "explanation": "Neural Networks are computing systems inspired by biological neural networks. They consist of layers of interconnected nodes that process data and learn patterns."
+      },
+      {
+        "id": 8,
+        "question": "What is Natural Language Processing (NLP)?",
+        "options": {
+          "A": "A type of encryption algorithm",
+          "B": "A branch of AI that enables computers to understand, interpret, and generate human language",
+          "C": "A hardware component for speech recognition",
+          "D": "A database query language"
+        },
+        "correct_answer": "B",
+        "explanation": "NLP combines linguistics, computer science, and AI to process and analyze large amounts of natural language data, enabling applications like chatbots and translation."
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is an application of AI?",
+        "options": {
+          "A": "Self-driving cars",
+          "B": "Voice assistants (e.g., Siri, Alexa)",
+          "C": "Recommendation systems (e.g., Netflix, YouTube)",
+          "D": "All of the above"
+        },
+        "correct_answer": "D",
+        "explanation": "AI is widely used in autonomous vehicles, virtual assistants, recommendation engines, healthcare diagnosis, fraud detection, and many other fields."
+      },
+      {
+        "id": 10,
+        "question": "What is the 'Turing Test' in AI?",
+        "options": {
+          "A": "A test to measure computer processing speed",
+          "B": "A test to determine if a machine can exhibit intelligent behavior equivalent to a human",
+          "C": "A test for network security vulnerabilities",
+          "D": "A test for software quality assurance"
+        },
+        "correct_answer": "B",
+        "explanation": "Proposed by Alan Turing in 1950, the Turing Test evaluates a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
+      }
+    ]
+  }
+}
