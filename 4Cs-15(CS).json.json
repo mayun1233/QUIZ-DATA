@@ -1,0 +1,125 @@
+{
+  "quiz_title": "Cybersecurity Essentials – Top 10 Questions",
+  "questions": [
+    {
+      "id": 1,
+      "book": "Cybersecurity Essentials",
+      "question": "What are the four distinct challenges of an effective defense according to the book?",
+      "options": [
+        "A) Securing the infrastructure, devices, local networks, and the perimeter",
+        "B) Securing data, applications, endpoints, and cloud",
+        "C) Securing passwords, firewalls, antivirus, and backups",
+        "D) Securing people, processes, technology, and compliance"
+      ],
+      "answer": "A) Securing the infrastructure, devices, local networks, and the perimeter"
+    },
+    {
+      "id": 2,
+      "book": "Cybersecurity Essentials",
+      "question": "What does the CIA Triad stand for in cybersecurity?",
+      "options": [
+        "A) Confidentiality, Integrity, Availability",
+        "B) Central Intelligence Agency",
+        "C) Control, Identity, Access",
+        "D) Cryptography, Internet, Authentication"
+      ],
+      "answer": "A) Confidentiality, Integrity, Availability"
+    },
+    {
+      "id": 3,
+      "book": "Cybersecurity Essentials",
+      "question": "Which type of attack uses a botnet to overwhelm a server with traffic?",
+      "options": [
+        "A) Phishing",
+        "B) Man-in-the-middle",
+        "C) DDoS (Distributed Denial of Service)",
+        "D) Spoofing"
+      ],
+      "answer": "C) DDoS (Distributed Denial of Service)"
+    },
+    {
+      "id": 4,
+      "book": "Cybersecurity Essentials",
+      "question": "What is the non-technical method often used to gather sensitive information?",
+      "options": [
+        "A) Pharming",
+        "B) Ransomware",
+        "C) Social engineering",
+        "D) Sniffing"
+      ],
+      "answer": "C) Social engineering"
+    },
+    {
+      "id": 5,
+      "book": "Cybersecurity Essentials",
+      "question": "Which technology ensures data confidentiality during transmission (e.g., for remote workers)?",
+      "options": [
+        "A) VLAN",
+        "B) VPN (Virtual Private Network)",
+        "C) RAID",
+        "D) NAC"
+      ],
+      "answer": "B) VPN (Virtual Private Network)"
+    },
+    {
+      "id": 6,
+      "book": "Cybersecurity Essentials",
+      "question": "What is the science of making and breaking secret codes called?",
+      "options": [
+        "A) Cryptography",
+        "B) Steganography",
+        "C) Forensics",
+        "D) Hashing"
+      ],
+      "answer": "A) Cryptography"
+    },
+    {
+      "id": 7,
+      "book": "Cybersecurity Essentials",
+      "question": "What technique adds random data to passwords to prevent identical hashes?",
+      "options": [
+        "A) Peppering",
+        "B) Salting",
+        "C) Hashing",
+        "D) Encryption"
+      ],
+      "answer": "B) Salting"
+    },
+    {
+      "id": 8,
+      "book": "Cybersecurity Essentials",
+      "question": "Which of the following are states of data? (Select three)",
+      "options": [
+        "A) Data in transit",
+        "B) Data in process",
+        "C) Data in storage",
+        "D) Data in backup"
+      ],
+      "answer": "A, B, C (Data in transit, Data in process, Data in storage)"
+    },
+    {
+      "id": 9,
+      "book": "Cybersecurity Essentials",
+      "question": "Passwords, passphrases, and PINs are examples of which security term?",
+      "options": [
+        "A) Authentication",
+        "B) Authorization",
+        "C) Access",
+        "D) Identification"
+      ],
+      "answer": "A) Authentication"
+    },
+    {
+      "id": 10,
+      "book": "Cybersecurity Essentials",
+      "question": "What type of access control do smart cards and biometrics provide?",
+      "options": [
+        "A) Physical",
+        "B) Logical",
+        "C) Administrative",
+        "D) Technological"
+      ],
+      "answer": "B) Logical"
+    }
+  ]
+}

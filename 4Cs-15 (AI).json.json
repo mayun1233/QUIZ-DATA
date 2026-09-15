@@ -1,0 +1,104 @@
+{
+  "quiz_title": "AI Essentials - Top 10 Questions (Chapters 1-5)",
+  "questions": [
+    {
+      "id": 1,
+      "Book": "Artificial Intelligence",
+      "options": ["A) Russell & Norvig", 
+                  "B) Ng & LeCun", 
+                  "C) Turing & McCarthy", 
+                  "D) Hinton & Bengio"],
+      "answer": "A) Russell & Norvig"
+    },
+    {
+      "id": 2,
+      "Book": "Artificial Intelligence",
+      "question": "What are the four goals of AI?",
+      "options": ["A) Act/Think humanly/rationally", 
+                  "B) Act/Think/Learn/Plan", 
+                  "C) Think/Act/Perceive/Reason", 
+                  "D) Learn/Plan/Act/Think"],
+      "answer": "A) Act/Think humanly/rationally"
+    },
+    {
+      "id": 3,
+      "Book": "Artificial Intelligence",
+      "question": "Who coined 'Artificial Intelligence'?",
+      "options": ["A) Turing", 
+                  "B) McCarthy", 
+                  "C) Minsky", 
+                  "D) Simon"],
+      "answer": "B) McCarthy"
+    },
+    {
+      "id": 4,
+      "Book": "Artificial Intelligence",
+      "question": "What does PEAS stand for?",
+      "options": ["A) Performance, Environment, Actuators, Sensors", 
+                  "B) Plan, Execute, Act, Sense", 
+                  "C) Perceive, Evaluate, Act, Solve", 
+                  "D) Problem, Environment, Algorithm, State"],
+      "answer": "A) Performance, Environment, Actuators, Sensors"
+    },
+    {
+      "id": 5,
+      "Book": "Artificial Intelligence",
+      "question": "Fully observable vs partially observable?",
+      "options": ["A) Full = knows all, Partial = limited info", 
+                  "B) Full = deterministic, Partial = stochastic", 
+                  "C) Full = no noise, Partial = noise", 
+                  "D) No difference"],
+      "answer": "A) Full = knows all, Partial = limited info"
+    },
+    {
+      "id": 6,
+      "Book": "Artificial Intelligence",
+      "question": "What defines a search problem?",
+      "options": ["A) Nodes and edges", 
+                  "B) Initial state, actions, transition, goal test, path cost", 
+                  "C) States and parents", 
+                  "D) Heuristic function"],
+      "answer": "B) Initial state, actions, transition, goal test, path cost"
+    },
+    {
+      "id": 7,
+      "Book": "Artificial Intelligence",
+      "question": "Which are uninformed search algorithms?",
+      "options": ["A) A* & Greedy", 
+                  "B) BFS, DFS, UCS", 
+                  "C) Hill Climbing & SA", 
+                  "D) Genetic & Neural"],
+      "answer": "B) BFS, DFS, UCS"
+    },
+    {
+      "id": 8,
+      "Book": "Artificial Intelligence",
+      "question": "Local search vs global search?",
+      "options": ["A) Local = neighborhood, Global = entire space", 
+                  "B) Local = entire space, Global = neighborhood", 
+                  "C) Local = optimal, Global = not", 
+                  "D) No difference"],
+      "answer": "A) Local = neighborhood, Global = entire space"
+    },
+    {
+      "id": 9,
+      "Book": "Artificial Intelligence",
+      "question": "What is a game tree?",
+      "options": ["A) Nodes = states, Edges = moves", 
+                  "B) Tree for sorting players", 
+                  "C) Stores only winning moves", 
+                  "D) Not used in AI"],
+      "answer": "A) Nodes = states, Edges = moves"
+    },
+    {
+      "id": 10,
+      "Book": "Artificial Intelligence",
+      "question": "What is Minimax for?",
+      "options": ["A) Shortest path", 
+                  "B) Optimal decisions in 2-player zero-sum games", 
+                  "C) Clustering", 
+                  "D) Neural networks"],
+      "answer": "B) Optimal decisions in 2-player zero-sum games"
+    }
+  ]
+}
