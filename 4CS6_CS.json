@@ -1,0 +1,151 @@
+{
+  "book_title": "Cybersecurity Essentials",
+  "authors": [
+    "Charles J. Brooks",
+    "Christopher Grow",
+    "Philip Craig",
+    "Donald Short"
+  ],
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Infrastructure Security in the Real World",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a primary objective of physical infrastructure security in cybersecurity?",
+          "options": [
+            "A. Protecting physical assets, facilities, and personnel from physical threats and unauthorized access.",
+            "B. Speeding up network routing tables.",
+            "C. Standardizing software source code formatting.",
+            "D. Managing database queries."
+          ],
+          "answer": "A. Protecting physical assets, facilities, and personnel from physical threats and unauthorized access."
+        },
+        {
+          "id": 2,
+          "question": "Which security concept uses multiple layered security controls to protect critical infrastructure?",
+          "options": [
+            "A. Single Point of Failure",
+            "B. Defense in Depth",
+            "C. Security through Obscurity",
+            "D. Principle of Least Privilege"
+          ],
+          "answer": "B. Defense in Depth"
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Understanding Access-Control and Monitoring Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which authentication factor classification does a fingerprint scan fall under?",
+          "options": [
+            "A. Something you know",
+            "B. Something you have",
+            "C. Something you are",
+            "D. Somewhere you are"
+          ],
+          "answer": "C. Something you are"
+        },
+        {
+          "id": 2,
+          "question": "Which type of device is commonly used to control physical access at security perimeters such as doorways or gates?",
+          "options": [
+            "A. Smart card reader and electronic lock",
+            "B. Packet-filtering router",
+            "C. Network intrusion detection system",
+            "D. Protocol analyzer"
+          ],
+          "answer": "A. Smart card reader and electronic lock"
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Understanding Video Surveillance Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which type of video camera allows operators to remotely adjust its view angle, direction, and magnification?",
+          "options": [
+            "A. Fixed dome camera",
+            "B. PTZ (Pan-Tilt-Zoom) camera",
+            "C. Static pinhole camera",
+            "D. Infrared thermal camera"
+          ],
+          "answer": "B. PTZ (Pan-Tilt-Zoom) camera"
+        },
+        {
+          "id": 2,
+          "question": "Which system is primarily used to capture, process, and store video footage from IP-based surveillance cameras?",
+          "options": [
+            "A. Network Video Recorder (NVR)",
+            "B. Intrusion Detection System (IDS)",
+            "C. Domain Name System (DNS)",
+            "D. Hardware Firewall"
+          ],
+          "answer": "A. Network Video Recorder (NVR)"
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Understanding Intrusion-Detection and Reporting Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the core function of an Intrusion Detection System (IDS)?",
+          "options": [
+            "A. To encrypt all stored files on a hard drive.",
+            "B. To monitor network or system traffic for unauthorized activity and alert administrators.",
+            "C. To physical block access through building doors.",
+            "D. To assign IP addresses automatically to host devices."
+          ],
+          "answer": "B. To monitor network or system traffic for unauthorized activity and alert administrators."
+        },
+        {
+          "id": 2,
+          "question": "What term describes a scenario where an IDS incorrectly flags harmless normal activity as a security violation?",
+          "options": [
+            "A. False negative",
+            "B. False positive",
+            "C. True negative",
+            "D. True positive"
+          ],
+          "answer": "B. False positive"
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_title": "Local Host Security in the Real World",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which process involves disabling unused operating system services, closing unneeded ports, and configuring security settings to protect a single computer?",
+          "options": [
+            "A. Host Hardening",
+            "B. Social Engineering",
+            "C. Packet Sniffing",
+            "D. Overclocking"
+          ],
+          "answer": "A. Host Hardening"
+        },
+        {
+          "id": 2,
+          "question": "What is a critical practice for protecting local operating systems against newly identified vulnerabilities?",
+          "options": [
+            "A. Disabling antivirus signature updates",
+            "B. Regularly applying security patches and software updates",
+            "C. Keeping default administrator account credentials",
+            "D. Turning off local host firewalls"
+          ],
+          "answer": "B. Regularly applying security patches and software updates"
+        }
+      ]
+    }
+  ]
+}

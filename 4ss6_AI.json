@@ -1,0 +1,146 @@
+{
+  "book_title": "Artificial Intelligence: A Modern Approach",
+  "edition": "4th Edition",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "Introduction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which benchmark test was proposed to evaluate whether a machine can exhibit human-equivalent intelligence through conversation?",
+          "options": [
+            "A. Turing Test",
+            "B. Winograd Schema",
+            "C. ImageNet Challenge",
+            "D. Voight-Kampff Test"
+          ],
+          "answer": "A. Turing Test"
+        },
+        {
+          "id": 2,
+          "question": "What is the primary objective of a rational agent in Artificial Intelligence?",
+          "options": [
+            "A. To duplicate human decision-making in every scenario.",
+            "B. To select actions that maximize its expected performance measure based on its percept sequence.",
+            "C. To always make perfect decisions with zero risk of error.",
+            "D. To follow a static set of pre-programmed rules."
+          ],
+          "answer": "B. To select actions that maximize its expected performance measure based on its percept sequence."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "Intelligent Agents",
+      "questions": [
+        {
+          "id": 1,
+          "question": "An environment is considered 'fully observable' if:",
+          "options": [
+            "A. The agent has incomplete information about the current state.",
+            "B. The environment state changes continuously while the agent deliberates.",
+            "C. An agent's sensors give access to the complete state of the environment at each point in time.",
+            "D. Multiple agents are operating simultaneously."
+          ],
+          "answer": "C. An agent's sensors give access to the complete state of the environment at each point in time."
+        },
+        {
+          "id": 2,
+          "question": "Which agent structure maintains an internal state to handle partially observable environments?",
+          "options": [
+            "A. Simple reflex agent",
+            "B. Model-based reflex agent",
+            "C. Goal-based agent",
+            "D. Utility-based agent"
+          ],
+          "answer": "B. Model-based reflex agent"
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "Solving Problems by Searching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following search strategies is classified as an uninformed (blind) search?",
+          "options": [
+            "A. A* Search",
+            "B. Greedy Best-First Search",
+            "C. Breadth-First Search (BFS)",
+            "D. Recursive Best-First Search"
+          ],
+          "answer": "C. Breadth-First Search (BFS)"
+        },
+        {
+          "id": 2,
+          "question": "A heuristic function h(n) is considered 'admissible' if:",
+          "options": [
+            "A. It overestimates the actual cost to reach the goal state.",
+            "B. It never overestimates the cost to reach the goal state.",
+            "C. It always equals zero for all generated nodes.",
+            "D. It prioritizes nodes with higher path costs."
+          ],
+          "answer": "B. It never overestimates the cost to reach the goal state."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "Search in Complex Environments",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which local search algorithm continuously moves in the direction of increasing value (steepest ascent) but risk getting stuck in local maxima?",
+          "options": [
+            "A. Hill-climbing search",
+            "B. Simulated annealing",
+            "C. Genetic algorithm",
+            "D. Breadth-first search"
+          ],
+          "answer": "A. Hill-climbing search"
+        },
+        {
+          "id": 2,
+          "question": "Simulated annealing is a search algorithm inspired by which physical process?",
+          "options": [
+            "A. Biological evolution and natural selection",
+            "B. The cooling and crystallization of molten metal",
+            "C. Gravitational pull in fluid dynamics",
+            "D. Chemical reactions in equilibrium"
+          ],
+          "answer": "B. The cooling and crystallization of molten metal"
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_title": "Constraint Satisfaction Problems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In a Constraint Satisfaction Problem (CSP), what three components define the problem state?",
+          "options": [
+            "A. Variables, Domains, and Constraints",
+            "B. Nodes, Edges, and Path Costs",
+            "C. States, Actions, and Transition Models",
+            "D. Initial State, Goal Test, and Heuristics"
+          ],
+          "answer": "A. Variables, Domains, and Constraints"
+        },
+        {
+          "id": 2,
+          "question": "Which constraint propagation algorithm is widely used to enforce arc consistency in CSPs?",
+          "options": [
+            "A. Min-Conflicts",
+            "B. AC-3",
+            "C. Alpha-Beta Pruning",
+            "D. Backtracking Search"
+          ],
+          "answer": "B. AC-3"
+        }
+      ]
+    }
+  ]
+}
