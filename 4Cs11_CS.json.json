@@ -1,0 +1,128 @@
+{
+  "quiz": {
+    "title": "Cybersecurity Multiple Choice Quiz",
+    "total_questions": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of the following BEST describes the CIA Triad in information security?",
+        "options": {
+          "A": "Confidentiality, Integrity, Availability",
+          "B": "Confidentiality, Identity, Authentication",
+          "C": "Control, Integrity, Availability",
+          "D": "Compliance, Identity, Access"
+        },
+        "correct_answer": "A",
+        "explanation": "CIA Triad stands for Confidentiality (data privacy), Integrity (data accuracy), and Availability (data accessibility)."
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between a Vulnerability and a Threat?",
+        "options": {
+          "A": "Vulnerability is an attacker, Threat is a weakness",
+          "B": "Vulnerability is a weakness, Threat is a potential danger that exploits that weakness",
+          "C": "Vulnerability and Threat mean the same thing",
+          "D": "Vulnerability is a risk, Threat is a control measure"
+        },
+        "correct_answer": "B",
+        "explanation": "A vulnerability is a flaw or weakness in a system, while a threat is any potential danger that can exploit that vulnerability to cause harm."
+      },
+      {
+        "id": 3,
+        "question": "Which type of malware replicates itself without human interaction and spreads across networks?",
+        "options": {
+          "A": "Trojan Horse",
+          "B": "Virus",
+          "C": "Worm",
+          "D": "Ransomware"
+        },
+        "correct_answer": "C",
+        "explanation": "A worm is self-replicating malware that spreads automatically across networks without needing a host file or user action, unlike viruses which need a host."
+      },
+      {
+        "id": 4,
+        "question": "What is the primary goal of a Phishing attack?",
+        "options": {
+          "A": "To destroy computer hardware",
+          "B": "To trick users into revealing sensitive information like passwords or credit card numbers",
+          "C": "To encrypt files and demand ransom",
+          "D": "To overload a network with traffic"
+        },
+        "correct_answer": "B",
+        "explanation": "Phishing is a social engineering attack where attackers impersonate legitimate entities to deceive users into giving up confidential information."
+      },
+      {
+        "id": 5,
+        "question": "A Denial-of-Service (DoS) attack directly targets which element of the CIA Triad?",
+        "options": {
+          "A": "Confidentiality",
+          "B": "Integrity",
+          "C": "Availability",
+          "D": "Authentication"
+        },
+        "correct_answer": "C",
+        "explanation": "DoS attacks flood systems with traffic to make services unavailable to legitimate users, directly violating the Availability principle."
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is an example of 'Something you have' in Multi-Factor Authentication (MFA)?",
+        "options": {
+          "A": "Password",
+          "B": "Fingerprint scan",
+          "C": "Smartphone or hardware token",
+          "D": "Security question answer"
+        },
+        "correct_answer": "C",
+        "explanation": "MFA factors include: Something you KNOW (password), Something you HAVE (phone/token), and Something you ARE (fingerprint)."
+      },
+      {
+        "id": 7,
+        "question": "What is the main purpose of a Firewall in network security?",
+        "options": {
+          "A": "To detect and remove viruses",
+          "B": "To monitor and control incoming/outgoing network traffic based on security rules",
+          "C": "To encrypt all data on the network",
+          "D": "To authenticate users logging into the system"
+        },
+        "correct_answer": "B",
+        "explanation": "A firewall acts as a barrier between trusted and untrusted networks, filtering traffic based on predefined rules to block unauthorized access."
+      },
+      {
+        "id": 8,
+        "question": "Which of the following BEST describes the difference between Authentication and Authorization?",
+        "options": {
+          "A": "Authentication grants permissions; Authorization verifies identity",
+          "B": "Authentication verifies identity; Authorization determines what actions are allowed",
+          "C": "Authentication and Authorization are the same thing",
+          "D": "Authorization comes before Authentication"
+        },
+        "correct_answer": "B",
+        "explanation": "Authentication proves who you are (e.g., logging in), while Authorization decides what you can do after you're logged in (e.g., accessing files)."
+      },
+      {
+        "id": 9,
+        "question": "During a Risk Assessment, which of the following is NOT a valid risk treatment strategy?",
+        "options": {
+          "A": "Risk Acceptance",
+          "B": "Risk Mitigation",
+          "C": "Risk Transfer",
+          "D": "Risk Ignorance"
+        },
+        "correct_answer": "D",
+        "explanation": "The four standard strategies are Accept, Mitigate, Transfer, and Avoid. Ignoring a risk without a plan is not a valid professional strategy."
+      },
+      {
+        "id": 10,
+        "question": "Which security control is MOST effective against unauthorized access to sensitive data in transit?",
+        "options": {
+          "A": "Antivirus software",
+          "B": "Firewall",
+          "C": "Encryption",
+          "D": "Intrusion Detection System (IDS)"
+        },
+        "correct_answer": "C",
+        "explanation": "Encryption scrambles data so that even if intercepted, it cannot be read without the correct decryption key, protecting data during transmission."
+      }
+    ]
+  }
+}
