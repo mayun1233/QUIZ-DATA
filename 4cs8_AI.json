@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What defines a rational agent in AI?",
+      "options": {
+        "A": "It can think and reason like a human.",
+        "B": "It always chooses the action that maximizes its performance measure based on percepts.",
+        "C": "It can solve any mathematical problem.",
+        "D": "It has a human-like consciousness."
+      },
+      "correct_answer": "B",
+      "explanation": "A rational agent's primary goal is to achieve the best expected outcome based on its percepts, as defined in the core AI concept."
+    },
+    {
+      "id": 2,
+      "question": "Which search method uses domain-specific knowledge (heuristics) to find solutions more efficiently?",
+      "options": {
+        "A": "Uninformed search",
+        "B": "Informed (heuristic) search",
+        "C": "Local search",
+        "D": "Backtracking search"
+      },
+      "correct_answer": "B",
+      "explanation": "Informed search uses heuristic functions to guide the search toward the goal more efficiently."
+    },
+    {
+      "id": 3,
+      "question": "In adversarial game playing, the minimax algorithm is used to:",
+      "options": {
+        "A": "Find the shortest path in a graph.",
+        "B": "Optimize a single-agent solution.",
+        "C": "Make optimal decisions assuming the opponent also plays optimally.",
+        "D": "Solve constraint satisfaction problems."
+      },
+      "correct_answer": "C",
+      "explanation": "Minimax assumes both players play optimally and selects the move that minimizes the maximum possible loss."
+    },
+    {
+      "id": 4,
+      "question": "What type of problem involves finding values for variables that satisfy a set of constraints?",
+      "options": {
+        "A": "Search problem",
+        "B": "Constraint Satisfaction Problem (CSP)",
+        "C": "Adversarial problem",
+        "D": "Optimization problem"
+      },
+      "correct_answer": "B",
+      "explanation": "CSPs are defined by variables, domains, and constraints, and the goal is to find a consistent assignment."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is an example of an uninformed search strategy?",
+      "options": {
+        "A": "A* search",
+        "B": "Greedy best-first search",
+        "C": "Breadth-first search (BFS)",
+        "D": "Hill climbing"
+      },
+      "correct_answer": "C",
+      "explanation": "BFS explores level by level without using any heuristic, making it an uninformed search strategy."
+    },
+    {
+      "id": 6,
+      "question": "What is the main difference between a problem-solving agent and a simple reflex agent?",
+      "options": {
+        "A": "Reflex agents use heuristics; problem-solving agents do not.",
+        "B": "Reflex agents act based on current percepts; problem-solving agents consider future actions and goals.",
+        "C": "Reflex agents are rational; problem-solving agents are not.",
+        "D": "There is no difference."
+      },
+      "correct_answer": "B",
+      "explanation": "Problem-solving agents plan ahead by formulating goals and searching for solutions, while reflex agents react only to current inputs."
+    },
+    {
+      "id": 7,
+      "question": "In local search algorithms (e.g., hill climbing), the goal is to:",
+      "options": {
+        "A": "Find a path from start to goal.",
+        "B": "Find the optimal solution among all possible states.",
+        "C": "Find a good (often optimal) state within a landscape of candidate solutions.",
+        "D": "Solve games with an opponent."
+      },
+      "correct_answer": "C",
+      "explanation": "Local search focuses on moving from one state to a neighboring state to find a better solution, without keeping a path."
+    },
+    {
+      "id": 8,
+      "question": "Monte Carlo Tree Search (MCTS) is particularly useful in:",
+"options": {
+        "A": "Simple pathfinding problems.",
+        "B": "Problems with a single optimal solution.",
+        "C": "Large, complex games where the search tree is too big for minimax (e.g., Go).",
+        "D": "Constraint satisfaction problems."
+      },
+      "correct_answer": "C",
+      "explanation": "MCTS is designed for games with enormous branching factors, where exhaustive search is infeasible."
+    },
+    {
+      "id": 9,
+      "question": "The process of formulating a goal, then a problem, then searching for a solution, and finally executing it describes:",
+      "options": {
+        "A": "A reflex agent.",
+        "B": "A learning agent.",
+        "C": "A problem-solving agent.",
+        "D": "A utility-based agent."
+      },
+      "correct_answer": "C",
+      "explanation": "This is the standard workflow of a problem-solving agent: Goal → Problem → Search → Execution."
+    },
+    {
+      "id": 10,
+      "question": "Constraint propagation in CSPs refers to:",
+      "options": {
+        "A": "Searching randomly for a solution.",
+        "B": "Using local information to reduce the domain of variables and simplify the problem.",
+        "C": "Playing games against an opponent.",
+        "D": "Using heuristics to guide the search."
+      },
+      "correct_answer": "B",
+      "explanation": "Constraint propagation uses constraints to narrow down variable domains, making the problem easier to solve."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "An organization wants to ensure that only authorized devices can connect to their network. The network will check each device's antivirus status before granting access. Which technology should be used?",
+        "options": {
+          "A": "VPN",
+          "B": "NAC",
+          "C": "SAN",
+          "D": "VLAN"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is the best method to ensure the confidentiality of data being transmitted over a public network?",
+        "options": {
+          "A": "RAID",
+          "B": "Hashing",
+          "C": "VPN",
+          "D": "VLAN"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "What are the two most effective ways to defend against malware?",
+        "options": {
+          "A": "Implement strong passwords.",
+          "B": "Install and update antivirus software.",
+          "C": "Implement network firewalls.",
+          "D": "Update the operating system and other application software."
+        },
+        "answer": ["B", "D"]
+      },
+      {
+        "id": 4,
+        "question": "A security specialist needs to choose the strongest hashing algorithm to ensure data integrity. Which algorithm should they select?",
+        "options": {
+          "A": "MD5",
+          "B": "AES",
+          "C": "SHA-1",
+          "D": "SHA-256"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 5,
+        "question": "Which type of attack involves tricking an individual into revealing confidential information, such as by creating a sense of urgency?",
+        "options": {
+          "A": "Malware",
+          "B": "Phishing",
+          "C": "Spoofing",
+          "D": "Man-in-the-middle"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "What is the primary goal of a Denial-of-Service (DoS) attack?",
+        "options": {
+          "A": "To steal user credentials.",
+          "B": "To gain unauthorized access.",
+          "C": "To make a service unavailable.",
+          "D": "To install malware."
+        },
+        "answer": "C"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is an example of 'something you have' in multi-factor authentication?",
+        "options": {
+          "A": "A password",
+          "B": "A fingerprint",
+          "C": "A smart card",
+          "D": "A PIN"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "question": "Which type of control is an Intrusion Detection System (IDS) classified as?",
+        "options": {
+          "A": "Preventive",
+          "B": "Deterrent",
+          "C": "Detective",
+          "D": "Compensating"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "An organization stores customer data on its servers. This data is categorized as...",
+        "options": {
+          "A": "Data in use",
+          "B": "Data in transit",
+          "C": "Data at rest",
+          "D": "Data encrypted"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 10,
+        "question": "What is the fundamental challenge with symmetric key encryption?",
+        "options": {
+          "A": "It is too slow.",
+          "B": "The key distribution problem.",
+          "C": "It only provides integrity.",
+          "D": "It requires a Public Key Infrastructure."
+        },
+        "answer": "B"
+      }
+    ]
+  }
+
